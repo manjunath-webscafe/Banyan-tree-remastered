@@ -1,6 +1,5 @@
 import Reveal from "./Reveal.jsx";
 import heroVideo from "../assets/Villa.mp4";
-import heroPoster from "../assets/hero.png";
 
 export default function Hero() {
   return (
@@ -12,17 +11,11 @@ export default function Hero() {
           muted
           loop
           playsInline
-          poster={heroPoster}
           preload="auto"
         >
           <source src={heroVideo} type="video/mp4" />
           Your browser does not support video playback.
         </video>
-        <img
-          className="hero-fallback"
-          src={heroPoster}
-          alt="A sunlit contemporary residence framed by mature trees"
-        />
         <div className="hero-scrim"></div>
       </div>
 
