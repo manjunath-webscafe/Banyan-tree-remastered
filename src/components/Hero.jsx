@@ -26,6 +26,11 @@ export default function Hero() {
           <source src={heroVideo} type="video/mp4" />
           Your browser does not support video playback.
         </video>
+        <img
+          className="hero-fallback"
+          src={heroPoster}
+          alt="A sunlit contemporary residence framed by mature trees"
+        />
         <div className="hero-scrim"></div>
       </div>
 
