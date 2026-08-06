@@ -409,13 +409,9 @@ em {
 
   .hero-content {
     padding-top: 48px;
-  }
-
-  .hero-media .hero-video {
-    display: none;
-  }
-  .hero-fallback {
-    display: block;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
   }
 }
 
@@ -1204,6 +1200,7 @@ em {
     position: fixed;
     top: 0;
     right: 0;
+    left: auto;
     height: 100vh;
     width: min(320px, 80vw);
     background: var(--forest-900);
