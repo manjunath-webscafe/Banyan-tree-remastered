@@ -352,8 +352,13 @@ em {
    ========================================================= */
 .hero {
   position: relative;
-  width: 100%;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
+  margin-left: -50vw;
+  margin-right: -50vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -392,6 +397,11 @@ em {
 
 @media (max-width: 860px) {
   .hero {
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: auto;
+    margin: 0;
     min-height: 90vh;
     align-items: flex-start;
     padding-top: 80px;
