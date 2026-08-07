@@ -1,5 +1,5 @@
-import Reveal from "./Reveal.jsx";
-import heroVideo from "../assets/Villa.mp4";
+import Reveal from "Banyan/src/components/Reveal.jsx";
+import heroVideo from "Banyan/src/assets/Villa.mp4";
 
 export default function Hero() {
   return (
