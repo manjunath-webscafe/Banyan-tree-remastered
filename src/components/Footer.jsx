@@ -25,7 +25,6 @@ export default function Footer() {
         <div className="footer-brand">
           <a href="#top" className="brand brand-footer">
             <BrandMark simple />
-            <span className="brand-word">{brandName}</span>
           </a>
           <p>
             Two decades of landmark residences across Bengaluru — built on

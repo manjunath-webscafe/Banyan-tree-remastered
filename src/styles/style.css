@@ -276,8 +276,8 @@ em {
   color: var(--forest-900);
 }
 .brand-mark {
-  width: 60px;
-  height: 60px;
+  width: auto;
+  height: 42px;
   color: var(--gold);
   flex-shrink: 0;
   object-fit: contain;
@@ -403,7 +403,7 @@ em {
 }
 
 .eyebrow {
-  color: #f3dcc1;
+  color: goldenrod;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
 }
 
