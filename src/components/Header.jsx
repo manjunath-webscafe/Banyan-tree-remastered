@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import BrandMark from "./BrandMark.jsx";
 import { useScrolled } from "../hooks/useScrolled.js";
 import { brandName, navLinks } from "../data/site.js";
@@ -23,10 +24,9 @@ export default function Header() {
       id="siteHeader"
     >
       <div className="container header-inner">
-        <a href="#top" className="brand" aria-label="Banyan Tree Group — Home">
+        <Link to="/" className="brand" aria-label="Banyan Tree Group — Home">
           <BrandMark />
-          <span className="brand-word">{brandName}</span>
-        </a>
+        </Link>
 
         <nav
           className={`main-nav${navOpen ? " open" : ""}`}
@@ -36,18 +36,18 @@ export default function Header() {
           <ul>
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} onClick={() => setNavOpen(false)}>
+                <Link to={link.href} onClick={() => setNavOpen(false)}>
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
         </nav>
 
         <div className="header-actions">
-          <a href="#contact" className="btn btn-primary btn-sm">
+          <Link to="/contact" className="btn btn-primary btn-sm">
             Enquire
-          </a>
+          </Link>
           <button
             className="nav-toggle"
             id="navToggle"

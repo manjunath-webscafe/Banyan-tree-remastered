@@ -4,12 +4,12 @@
 export const brandName = "Banyan\u00A0Tree";
 
 export const navLinks = [
-  { href: "#legacy", label: "Legacy" },
-  { href: "#philosophy", label: "Philosophy" },
-  { href: "#residences", label: "Residences" },
-  { href: "#journey", label: "Journey" },
-  { href: "#testimonials", label: "Voices" },
-  { href: "#contact", label: "Contact" },
+  { href: "/legacy", label: "Legacy" },
+  { href: "/philosophy", label: "Philosophy" },
+  { href: "/residences", label: "Residences" },
+  { href: "/journey", label: "Journey" },
+  { href: "/voices", label: "Voices" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export const contact = {
