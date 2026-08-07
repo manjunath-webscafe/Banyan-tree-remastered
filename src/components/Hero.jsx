@@ -1,5 +1,7 @@
-import Reveal from "Banyan/src/components/Reveal.jsx";
-import heroVideo from "Banyan/src/assets/Villa.mp4";
+import Reveal from "./Reveal.jsx";
+
+const heroVideoUrl =
+  "https://res.cloudinary.com/flxf4ltt/video/upload/v1786089673/823516e8d5_wtlxxd.mp4";
 
 export default function Hero() {
   return (
@@ -13,7 +15,7 @@ export default function Hero() {
           playsInline
           preload="auto"
         >
-          <source src={heroVideo} type="video/mp4" />
+          <source src={heroVideoUrl} type="video/mp4" />
           Your browser does not support video playback.
         </video>
         <div className="hero-scrim"></div>
@@ -29,9 +31,9 @@ export default function Hero() {
           <em>Built for generations.</em>
         </Reveal>
         <Reveal as="p" className="hero-sub">
-          Banyan Tree Group has spent two decades shaping Bengaluru's finest
-          addresses — where thoughtful architecture, honest craft and quiet
-          luxury are allowed to grow, slowly and deliberately.
+          Banyan Tree Group has spent two decades shaping Bengaluru&apos;s
+          finest addresses — where thoughtful architecture, honest craft and
+          quiet luxury are allowed to grow, slowly and deliberately.
         </Reveal>
         <Reveal className="hero-cta">
           <a href="#residences" className="btn btn-primary">
@@ -43,11 +45,7 @@ export default function Hero() {
         </Reveal>
       </div>
 
-      <a
-        href="#legacy"
-        className="scroll-cue"
-        aria-label="Scroll to next section"
-      >
+      <a href="#legacy" className="scroll-cue" aria-label="Scroll to next section">
         <span></span>
       </a>
     </section>
