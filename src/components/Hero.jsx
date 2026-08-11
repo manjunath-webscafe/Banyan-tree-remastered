@@ -36,8 +36,8 @@ export default function Hero() {
           quiet luxury are allowed to grow, slowly and deliberately.
         </Reveal>
         <Reveal className="hero-cta">
-          <a href="#residences" className="btn btn-primary">
-            Explore Our Residences
+          <a href="#projects" className="btn btn-primary">
+            Explore Our Projects
           </a>
           <a href="#legacy" className="btn btn-ghost">
             Our Story

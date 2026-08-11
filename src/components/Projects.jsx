@@ -1,18 +1,18 @@
 import Reveal from "./Reveal.jsx";
 import { projects } from "../data/site.js";
 
-export default function Residences() {
+export default function Projects() {
   return (
-    <section className="section residences" id="residences">
+    <section className="section projects" id="projects">
       <div className="container">
         <div className="section-head">
           <Reveal as="p" className="eyebrow">
-            Our Residences
+            Our Projects
           </Reveal>
           <Reveal as="h2">Addresses across Bengaluru.</Reveal>
           <Reveal as="p" className="section-lede">
             From established enclaves to emerging corridors, each Banyan Tree
-            residence is planned around the character of its neighbourhood —
+            project is planned around the character of its neighbourhood —
             never a template repeated from one site to the next.
           </Reveal>
         </div>
@@ -42,7 +42,7 @@ export default function Residences() {
 
         <Reveal className="section-cta-row">
           <a href="#contact" className="btn btn-outline">
-            Enquire About a Residence
+            Enquire About a Project
           </a>
         </Reveal>
       </div>

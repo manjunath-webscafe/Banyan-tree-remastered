@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import BrandMark from "./BrandMark.jsx";
 import { useScrolled } from "../hooks/useScrolled.js";
-import { brandName, navLinks } from "../data/site.js";
+import { navLinks } from "../data/site.js";
 
 export default function Header() {
   const scrolled = useScrolled(40);
@@ -45,9 +45,6 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
-          <Link to="/contact" className="btn btn-primary btn-sm">
-            Enquire
-          </Link>
           <button
             className="nav-toggle"
             id="navToggle"

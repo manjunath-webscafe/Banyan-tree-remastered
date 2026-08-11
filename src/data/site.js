@@ -5,10 +5,10 @@ export const brandName = "Banyan\u00A0Tree";
 
 export const navLinks = [
   { href: "/legacy", label: "Legacy" },
-  { href: "/philosophy", label: "Philosophy" },
-  { href: "/residences", label: "Residences" },
+  { href: "/projects", label: "Projects" },
   { href: "/journey", label: "Journey" },
-  { href: "/voices", label: "Voices" },
+  { href: "/leadership", label: "Leadership" },
+  { href: "/team", label: "Team & Promoters" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -62,6 +62,7 @@ export const projects = [
     name: "Royale",
     location: "Cooke Town",
     tag: "Residential",
+    status: "completed",
     image:
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
     alt: "Royale, a Banyan Tree residence in Cooke Town",
@@ -70,6 +71,7 @@ export const projects = [
     name: "Regal",
     location: "Cooke Town",
     tag: "Residential",
+    status: "completed",
     image:
       "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
     alt: "Regal, a Banyan Tree residence in Cooke Town",
@@ -78,6 +80,7 @@ export const projects = [
     name: "Grace",
     location: "Richard's Town",
     tag: "Residential",
+    status: "completed",
     image:
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
     alt: "Grace, a Banyan Tree residence in Richard's Town",
@@ -86,6 +89,7 @@ export const projects = [
     name: "Eastlynne",
     location: "Whitefield",
     tag: "Residential",
+    status: "completed",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=900&q=80",
     alt: "Eastlynne, a Banyan Tree residence in Whitefield",
@@ -94,6 +98,7 @@ export const projects = [
     name: "Sunshine",
     location: "Sarjapur",
     tag: "Residential",
+    status: "completed",
     image:
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80",
     alt: "Sunshine, a Banyan Tree residence in Sarjapur",
@@ -102,6 +107,7 @@ export const projects = [
     name: "Lake Drive Villas",
     location: "Whitefield \u2013 Old Madras Road Junction",
     tag: "Villas",
+    status: "ongoing",
     image:
       "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=900&q=80",
     alt: "Lake Drive Villas, a Banyan Tree villa community near Whitefield",
@@ -110,6 +116,7 @@ export const projects = [
     name: "Mystic Wind Row Houses",
     location: "Whitefield \u2013 Old Madras Road",
     tag: "Row Houses",
+    status: "ongoing",
     image:
       "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?auto=format&fit=crop&w=900&q=80",
     alt: "Mystic Wind Row Houses, a Banyan Tree community near Whitefield",
@@ -118,6 +125,7 @@ export const projects = [
     name: "Anand Apartments",
     location: "Off Sarjapur Road",
     tag: "Residential",
+    status: "completed",
     image:
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
     alt: "Anand Apartments, a Banyan Tree residence off Sarjapur Road",
@@ -126,6 +134,7 @@ export const projects = [
     name: "Marigold Homes",
     location: "Bengaluru",
     tag: "Upcoming",
+    status: "upcoming",
     upcoming: true,
     image:
       "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?auto=format&fit=crop&w=900&q=80",
@@ -183,6 +192,73 @@ export const journeySteps = [
   },
 ];
 
+export const projectStatusGroups = [
+  {
+    key: "completed",
+    label: "Completed Projects",
+    description:
+      "Delivered, occupied and standing as proof of two decades of design integrity and honest craft.",
+  },
+  {
+    key: "ongoing",
+    label: "Ongoing Projects",
+    description:
+      "Under active construction today, supervised in‑house at every stage from foundation to finish.",
+  },
+  {
+    key: "upcoming",
+    label: "Upcoming Projects",
+    description:
+      "In design and planning — the next addresses set to join our portfolio.",
+  },
+];
+
+/* Promoter details to be supplied by Banyan Tree Group and dropped in below. */
+export const promoters = [
+  {
+    id: "promoter-1",
+    name: "Promoter Name",
+    role: "Managing Promoter",
+    bio: "Promoter profile to be added — background, track record and role in founding Banyan Tree Group.",
+  },
+  {
+    id: "promoter-2",
+    name: "Promoter Name",
+    role: "Promoter & Director",
+    bio: "Promoter profile to be added — background, track record and role in founding Banyan Tree Group.",
+  },
+];
+
+/* Team member details to be supplied by Banyan Tree Group and dropped in below. */
+export const teamMembers = [
+  { id: "team-1", name: "Team Member", role: "Design & Architecture" },
+  { id: "team-2", name: "Team Member", role: "Construction & Engineering" },
+  { id: "team-3", name: "Team Member", role: "Sales & Advisory" },
+  { id: "team-4", name: "Team Member", role: "Customer Relations" },
+];
+
+/* Leadership bios/photos to be supplied by Banyan Tree Group and dropped in below. */
+export const leadershipTeam = [
+  {
+    id: "leader-1",
+    name: "Leadership Name",
+    role: "Managing Director",
+    bio: "Biography to be added.",
+  },
+  {
+    id: "leader-2",
+    name: "Leadership Name",
+    role: "Director – Design",
+    bio: "Biography to be added.",
+  },
+  {
+    id: "leader-3",
+    name: "Leadership Name",
+    role: "Director – Operations",
+    bio: "Biography to be added.",
+  },
+];
+
 export const galleryImages = [
   {
     src: "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=900&q=80",
@@ -203,27 +279,6 @@ export const galleryImages = [
   {
     src: "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=900&q=80",
     alt: "Mature green canopy within a Banyan Tree community",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "\u201CWhat convinced us wasn't the brochure — it was how plainly they answered every question, even the difficult ones, right through to handover.\u201D",
-    name: "Vikram K.",
-    role: "Owner, Royale",
-  },
-  {
-    quote:
-      "\u201CTwo years in, the finishes still feel new. You notice the difference when a builder plans for after the sale, not just before it.\u201D",
-    name: "Emelia H.",
-    role: "Owner, Eastlynne",
-  },
-  {
-    quote:
-      "\u201COur villa sits exactly where the model showed it would, down to the trees they promised to keep. That kind of follow\u2011through is rare.\u201D",
-    name: "Arjun & Meera S.",
-    role: "Owners, Lake Drive Villas",
   },
 ];
 
@@ -253,12 +308,12 @@ export const faqs = [
 export const footerQuickLinks = [
   { href: "#top", label: "Home" },
   { href: "#legacy", label: "About Us" },
-  { href: "#residences", label: "Residences" },
-  { href: "#testimonials", label: "Associates" },
+  { href: "#projects", label: "Projects" },
+  { href: "#journey", label: "Journey" },
   { href: "#contact", label: "Contact Us" },
 ];
 
-export const footerResidences = [
+export const footerProjects = [
   "Royale",
   "Regal",
   "Grace",
@@ -266,8 +321,11 @@ export const footerResidences = [
   "Sunshine",
 ];
 
+/* Real profile URLs to be added later — hrefs are placeholders until then. */
 export const socialLinks = [
-  { label: "Twitter", short: "X", href: "#" },
-  { label: "Facebook", short: "F", href: "#" },
-  { label: "YouTube", short: "Y", href: "#" },
+  { label: "Instagram", href: "#" },
+  { label: "Facebook", href: "#" },
+  { label: "Twitter", href: "#" },
+  { label: "LinkedIn", href: "#" },
+  { label: "Mail", href: `mailto:${contact.email}` },
 ];
