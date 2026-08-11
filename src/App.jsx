@@ -6,7 +6,6 @@ import LegacyPage from "./pages/LegacyPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
 import JourneyPage from "./pages/JourneyPage.jsx";
 import LeadershipPage from "./pages/LeadershipPage.jsx";
-import TeamPage from "./pages/TeamPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 
 export default function App() {
@@ -25,7 +24,6 @@ export default function App() {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/journey" element={<JourneyPage />} />
           <Route path="/leadership" element={<LeadershipPage />} />
-          <Route path="/team" element={<TeamPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>

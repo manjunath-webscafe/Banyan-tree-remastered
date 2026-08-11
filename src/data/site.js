@@ -8,7 +8,7 @@ export const navLinks = [
   { href: "/projects", label: "Projects" },
   { href: "/journey", label: "Journey" },
   { href: "/leadership", label: "Leadership" },
-  { href: "/team", label: "Team & Promoters" },
+
   { href: "/contact", label: "Contact" },
 ];
 
