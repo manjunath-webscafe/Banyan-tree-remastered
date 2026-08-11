@@ -1,7 +1,16 @@
+import { Link, useLocation } from "react-router-dom";
 import Reveal from "./Reveal.jsx";
 import { projects, projectStatusGroups } from "../data/site.js";
 
 export default function Projects() {
+  const { hash } = useLocation();
+  const activeStatus = projectStatusGroups.find(
+    (group) => hash === `#status-${group.key}`,
+  )?.key;
+  const visibleStatusGroups = activeStatus
+    ? projectStatusGroups.filter((group) => group.key === activeStatus)
+    : projectStatusGroups;
+
   return (
     <>
       <section className="section projects" id="projects">
@@ -59,12 +68,20 @@ export default function Projects() {
             <Reveal as="h2" className="light">
               Where every project stands today.
             </Reveal>
+            {activeStatus && (
+              <Link to="/projects" className="status-view-all">
+                ← View all statuses
+              </Link>
+            )}
           </div>
 
-          <div className="status-grid">
-            {projectStatusGroups.map((group) => (
+          <div
+            className={`status-grid${activeStatus ? " status-grid-single" : ""}`}
+          >
+            {visibleStatusGroups.map((group) => (
               <Reveal
                 as="article"
+                id={`status-${group.key}`}
                 className={`status-column status-column-${group.key}`}
                 key={group.key}
               >

@@ -6,7 +6,15 @@ export const brandName = "Banyan\u00A0Tree";
 export const navLinks = [
   { href: "/legacy", label: "Legacy" },
   { href: "/leadership", label: "Leadership" },
-  { href: "/projects", label: "Projects" },
+  {
+    href: "/projects",
+    label: "Projects",
+    submenu: [
+      { href: "/projects#status-completed", label: "Completed" },
+      { href: "/projects#status-ongoing", label: "Ongoing" },
+      { href: "/projects#status-upcoming", label: "Upcoming" },
+    ],
+  },
   { href: "/journey", label: "Journey" },
   { href: "/contact", label: "Contact" },
 ];

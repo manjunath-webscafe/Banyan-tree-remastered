@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import ScrollToHash from "./components/ScrollToHash.jsx";
 import Home from "./pages/Home.jsx";
 import LegacyPage from "./pages/LegacyPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
@@ -16,6 +17,7 @@ export default function App() {
       </a>
 
       <Header />
+      <ScrollToHash />
 
       <main id="main">
         <Routes>

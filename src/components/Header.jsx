@@ -35,10 +35,29 @@ export default function Header() {
         >
           <ul>
             {navLinks.map((link) => (
-              <li key={link.href}>
+              <li
+                key={link.href}
+                className={`nav-item${link.submenu ? " has-submenu" : ""}`}
+              >
                 <Link to={link.href} onClick={() => setNavOpen(false)}>
                   {link.label}
+                  {link.submenu && (
+                    <span className="caret" aria-hidden="true">
+                      ▾
+                    </span>
+                  )}
                 </Link>
+                {link.submenu && (
+                  <ul className="submenu">
+                    {link.submenu.map((sub) => (
+                      <li key={sub.href}>
+                        <Link to={sub.href} onClick={() => setNavOpen(false)}>
+                          {sub.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </li>
             ))}
           </ul>
