@@ -302,6 +302,9 @@ em {
   justify-content: space-between;
   gap: 24px;
 }
+.site-header .container {
+  padding-left: 0;
+}
 
 .brand {
   display: flex;
@@ -315,7 +318,7 @@ em {
 }
 .brand-mark {
   width: auto;
-  height: 64px;
+  height: 76px;
   color: var(--gold);
   flex-shrink: 0;
   object-fit: contain;
@@ -323,7 +326,7 @@ em {
   transition: height 0.4s var(--ease);
 }
 .site-header.scrolled .brand-mark {
-  height: 50px;
+  height: 58px;
 }
 .brand-word {
   font-family: var(--font-display);
@@ -1579,11 +1582,14 @@ em {
   .container {
     padding: 0 22px;
   }
+  .site-header .container {
+    padding-left: 0;
+  }
   .brand-mark {
-    height: 46px;
+    height: 56px;
   }
   .site-header.scrolled .brand-mark {
-    height: 40px;
+    height: 46px;
   }
   .section {
     padding: 84px 0;
