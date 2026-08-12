@@ -72,7 +72,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535376/Royale_k8tffx.png",
     alt: "Royale, a Banyan Tree residence in Cooke Town",
   },
   {
@@ -81,7 +81,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535361/Regal_gqsrb7.png",
     alt: "Regal, a Banyan Tree residence in Cooke Town",
   },
   {
@@ -90,7 +90,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535329/Grace_gw3ulb.png",
     alt: "Grace, a Banyan Tree residence in Richard's Town",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535321/East_Lyne_xgabn0.png",
     alt: "Eastlynne, a Banyan Tree residence in Whitefield",
   },
   {
@@ -108,7 +108,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535398/Sunshine_gifp8j.png",
     alt: "Sunshine, a Banyan Tree residence in Sarjapur",
   },
   {
@@ -117,7 +117,7 @@ export const projects = [
     tag: "Villas",
     status: "ongoing",
     image:
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786534572/Lake_Drive_vwdvtw.png",
     alt: "Lake Drive Villas, a Banyan Tree villa community near Whitefield",
   },
   {
@@ -126,7 +126,7 @@ export const projects = [
     tag: "Row Houses",
     status: "ongoing",
     image:
-      "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535346/Mystic_wind_jazc4l.png",
     alt: "Mystic Wind Row Houses, a Banyan Tree community near Whitefield",
   },
   {
@@ -144,7 +144,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535354/North_Square_hqadmf.png",
     alt: "North Square, a Banyan Tree residence Yelahanka",
   },
   {
@@ -153,7 +153,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535307/Bliss_rrbomy.png",
     alt: "Bliss, a Banyan Tree residence Off Sarjapur Road,",
   },
   {
@@ -162,7 +162,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535411/winter_green_lvumdt.png",
     alt: "Wintergreen, a Banyan Tree residence Sarjapur Ring Road,",
   },
   {
@@ -171,7 +171,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535367/Rhythm_sjxw04.png",
     alt: "Rhythm, a Banyan Tree residence Off Hennur Road",
   },
   {
@@ -180,7 +180,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535398/Sunshine_gifp8j.png",
     alt: "Song of wind, a Banyan Tree residence Nandi Hills",
   },
   {
@@ -198,7 +198,8 @@ export const projects = [
     location: "Bengaluru",
     tag: "Upcoming",
     status: "Upcoming",
-    image: { image },
+    image:
+      "https://i.pinimg.com/736x/74/99/a0/7499a03f6a46b393186eb0b287fd05f6.jpg",
     alt: "upcoming",
   },
 ];
@@ -387,6 +388,7 @@ export const footerProjects = [
   "Bliss",
   "Wintergreen",
   "Song of wind",
+  "Anand Apartments",
 ];
 
 /* Real profile URLs to be added later — hrefs are placeholders until then. */
