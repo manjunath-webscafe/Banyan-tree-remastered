@@ -2,6 +2,7 @@
    All repeated page content lives here so components stay presentational. */
 
 export const brandName = "Banyan\u00A0Tree";
+import image from "../assets/comingsoon.jpg";
 
 export const navLinks = [
   { href: "/legacy", label: "Legacy" },
@@ -93,7 +94,7 @@ export const projects = [
     alt: "Grace, a Banyan Tree residence in Richard's Town",
   },
   {
-    name: "Eastlynne",
+    name: "East Lyne",
     location: "Whitefield",
     tag: "Residential",
     status: "completed",
@@ -130,22 +131,75 @@ export const projects = [
   },
   {
     name: "Anand Apartments",
-    location: "Off Sarjapur Road",
+    location: "JP nagar",
     tag: "Residential",
     status: "completed",
     image:
       "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
-    alt: "Anand Apartments, a Banyan Tree residence off Sarjapur Road",
+    alt: "Anand Apartments, a Banyan Tree residence JP nagar",
+  },
+  {
+    name: "North Square",
+    location: " Yelahanka",
+    tag: "Residential",
+    status: "completed",
+    image:
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+    alt: "North Square, a Banyan Tree residence Yelahanka",
+  },
+  {
+    name: "Bliss",
+    location: " Off Sarjapur Road",
+    tag: "Residential",
+    status: "completed",
+    image:
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+    alt: "Bliss, a Banyan Tree residence Off Sarjapur Road,",
+  },
+  {
+    name: "Wintergreen",
+    location: " Sarjapur Ring Road",
+    tag: "Residential",
+    status: "completed",
+    image:
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+    alt: "Wintergreen, a Banyan Tree residence Sarjapur Ring Road,",
+  },
+  {
+    name: "Rhythm",
+    location: " Off Hennur Road",
+    tag: "Residential",
+    status: "completed",
+    image:
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+    alt: "Rhythm, a Banyan Tree residence Off Hennur Road",
+  },
+  {
+    name: "Song of wind",
+    location: " Nandi Hills",
+    tag: "Residential",
+    status: "completed",
+    image:
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+    alt: "Song of wind, a Banyan Tree residence Nandi Hills",
   },
   {
     name: "Marigold Homes",
     location: "Bengaluru",
-    tag: "Upcoming",
-    status: "upcoming",
+    tag: "Ongoing",
+    status: "ongoing",
     upcoming: true,
     image:
       "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?auto=format&fit=crop&w=900&q=80",
-    alt: "Marigold Homes, an upcoming Banyan Tree development",
+    alt: "Marigold Homes, an ongoing Banyan Tree development",
+  },
+  {
+    name: "Coming Soon....!",
+    location: "Bengaluru",
+    tag: "Upcoming",
+    status: "Upcoming",
+    image: { image },
+    alt: "upcoming",
   },
 ];
 
@@ -159,7 +213,7 @@ export const features = [
     body: "Our in\u2011house advisory works alongside leading lenders to structure financing that fits your family's plans, not just ours.",
   },
   {
-    title: "Two Decades of Trust",
+    title: "Over Two Decades of Trust",
     body: "Generations of Bengaluru families have chosen Banyan Tree — a track record built on homes that were delivered as promised.",
   },
   {
@@ -324,8 +378,15 @@ export const footerProjects = [
   "Royale",
   "Regal",
   "Grace",
-  "Eastlynne",
+  "East Lyne",
   "Sunshine",
+  "Lake Drive",
+  "Mystic Wind",
+  "Rhythm",
+  "North Square",
+  "Bliss",
+  "Wintergreen",
+  "Song of wind",
 ];
 
 /* Real profile URLs to be added later — hrefs are placeholders until then. */
