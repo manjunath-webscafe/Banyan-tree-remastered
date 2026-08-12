@@ -2,7 +2,6 @@
    All repeated page content lives here so components stay presentational. */
 
 export const brandName = "Banyan\u00A0Tree";
-import image from "../assets/comingsoon.jpg";
 
 export const navLinks = [
   { href: "/legacy", label: "Legacy" },
