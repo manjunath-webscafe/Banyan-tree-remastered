@@ -1,11 +1,16 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import BrandMark from "./BrandMark.jsx";
 import { useScrolled } from "../hooks/useScrolled.js";
 import { navLinks } from "../data/site.js";
 
 export default function Header() {
   const scrolled = useScrolled(40);
+  const { pathname } = useLocation();
+  // Only the home route opens on a dark hero photo — every other route now
+  // opens on the light page-header banner, so it needs the dark nav styling
+  // from the start rather than waiting for scroll.
+  const isLight = scrolled || pathname !== "/";
   const [navOpen, setNavOpen] = useState(false);
 
   // Escape closes the mobile drawer.
@@ -20,7 +25,7 @@ export default function Header() {
 
   return (
     <header
-      className={`site-header${scrolled ? " scrolled" : ""}`}
+      className={`site-header${isLight ? " scrolled" : ""}`}
       id="siteHeader"
     >
       <div className="container header-inner">

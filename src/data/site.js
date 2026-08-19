@@ -111,13 +111,13 @@ export const projects = [
     alt: "Sunshine, a Banyan Tree residence in Sarjapur",
   },
   {
-    name: "Lake Drive Villas",
-    location: "Whitefield \u2013 Old Madras Road Junction",
+    name: "Lake Drive",
+    location: "Old Madras Road",
     tag: "Villas",
-    status: "ongoing",
+    status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1786534572/Lake_Drive_vwdvtw.png",
-    alt: "Lake Drive Villas, a Banyan Tree villa community near Whitefield",
+    alt: "Lake Drive, a Banyan Tree villa community on Old Madras Road",
   },
   {
     name: "Mystic Wind Row Houses",
@@ -138,49 +138,67 @@ export const projects = [
     alt: "Anand Apartments, a Banyan Tree residence JP nagar",
   },
   {
-    name: "North Square",
-    location: " Yelahanka",
+    name: "Basaveshwara Layout",
+    location: "Vijayanagar",
     tag: "Residential",
     status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535354/North_Square_hqadmf.png",
-    alt: "North Square, a Banyan Tree residence Yelahanka",
+    alt: "Basaveshwara Layout, a Banyan Tree development in Vijayanagar",
   },
   {
-    name: "Bliss",
-    location: " Off Sarjapur Road",
+    name: "Basaveshwara Layout Phase 2",
+    location: "Chandra Layout, Vijayanagar",
     tag: "Residential",
     status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535307/Bliss_rrbomy.png",
-    alt: "Bliss, a Banyan Tree residence Off Sarjapur Road,",
+    alt: "Basaveshwara Layout Phase 2, a Banyan Tree development in Chandra Layout, Vijayanagar",
   },
   {
-    name: "Wintergreen",
-    location: " Sarjapur Ring Road",
+    name: "Ashirwad Apartments",
+    location: "RPC Layout, Vijayanagar",
     tag: "Residential",
     status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535411/winter_green_lvumdt.png",
-    alt: "Wintergreen, a Banyan Tree residence Sarjapur Ring Road,",
+    alt: "Ashirwad Apartments, a Banyan Tree residence in RPC Layout, Vijayanagar",
   },
   {
-    name: "Rhythm",
-    location: " Off Hennur Road",
+    name: "Ashirwad Layout",
+    location: "Magadi Road",
     tag: "Residential",
     status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535367/Rhythm_sjxw04.png",
-    alt: "Rhythm, a Banyan Tree residence Off Hennur Road",
+    alt: "Ashirwad Layout, a Banyan Tree development on Magadi Road",
   },
   {
-    name: "Song of wind",
-    location: " Nandi Hills",
+    name: "Trishul Commercial Complex",
+    location: "RPC Layout, Vijayanagar",
+    tag: "Commercial",
+    status: "completed",
+    image:
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
+    alt: "Trishul Commercial Complex, a Banyan Tree development in RPC Layout, Vijayanagar",
+  },
+  {
+    name: "Ashirwad Commercial Complex",
+    location: "Chandra Layout, Vijayanagar",
+    tag: "Commercial",
+    status: "completed",
+    image:
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80",
+    alt: "Ashirwad Commercial Complex, a Banyan Tree development in Chandra Layout, Vijayanagar",
+  },
+  {
+    name: "Coconut Garden",
+    location: "Nagarbhavi Main Road",
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535398/Sunshine_gifp8j.png",
-    alt: "Song of wind, a Banyan Tree residence Nandi Hills",
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80",
+    alt: "Coconut Garden, a Banyan Tree residence on Nagarbhavi Main Road",
   },
   {
     name: "Marigold Homes",
@@ -196,7 +214,7 @@ export const projects = [
     name: "Coming Soon....!",
     location: "Bengaluru",
     tag: "Upcoming",
-    status: "Upcoming",
+    status: "upcoming",
     image:
       "https://i.pinimg.com/736x/74/99/a0/7499a03f6a46b393186eb0b287fd05f6.jpg",
     alt: "upcoming",
@@ -298,25 +316,18 @@ export const teamMembers = [
   { id: "team-4", name: "Team Member", role: "Customer Relations" },
 ];
 
-/* Leadership bios/photos to be supplied by Banyan Tree Group and dropped in below. */
 export const leadershipTeam = [
   {
     id: "leader-1",
-    name: "Leadership Name",
-    role: "Managing Director",
-    bio: "Biography to be added.",
+    name: "Ravindra Madhudi",
+    role: "Promoter & Executive Director",
+    bio: "Hailing from a family of real estate developers, Ravindra Madhudi has over 16 years of experience in fields as diverse as market research and real estate. With his finely honed business acumen, he has been able to build lasting relationships with several MNCs across India. As Executive Director, he manages business development, design, construction and marketing. A trailblazer, he inspires, motivates and leads the way for his employees.",
   },
   {
     id: "leader-2",
-    name: "Leadership Name",
-    role: "Director – Design",
-    bio: "Biography to be added.",
-  },
-  {
-    id: "leader-3",
-    name: "Leadership Name",
-    role: "Director – Operations",
-    bio: "Biography to be added.",
+    name: "Hemang Rawal",
+    role: "Promoter & Managing Director",
+    bio: "A Chartered Accountant by qualification, Hemang brings to the table over 17 years of experience in the real estate industry. He has headed the south Indian operations of a British real estate services company – the 5th largest company worldwide in its field. He has been an advisor to various MNCs including Godrej, SKF Bearings, Zee Telefilms, McDonald's and Deutsche Bank, among others. He is on the panel of the Economic Times Realty and his articles appear regularly in newspapers.",
   },
 ];
 
@@ -382,12 +393,11 @@ export const footerProjects = [
   "Sunshine",
   "Lake Drive",
   "Mystic Wind",
-  "Rhythm",
-  "North Square",
-  "Bliss",
-  "Wintergreen",
-  "Song of wind",
   "Anand Apartments",
+  "Basaveshwara Layout",
+  "Ashirwad Apartments",
+  "Ashirwad Layout",
+  "Coconut Garden",
 ];
 
 /* Real profile URLs to be added later — hrefs are placeholders until then. */
