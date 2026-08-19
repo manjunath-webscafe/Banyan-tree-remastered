@@ -123,7 +123,7 @@ export const projects = [
     name: "Mystic Wind Row Houses",
     location: "Whitefield \u2013 Old Madras Road",
     tag: "Row Houses",
-    status: "ongoing",
+    status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535346/Mystic_wind_jazc4l.png",
     alt: "Mystic Wind Row Houses, a Banyan Tree community near Whitefield",
@@ -292,42 +292,22 @@ export const projectStatusGroups = [
   },
 ];
 
-/* Promoter details to be supplied by Banyan Tree Group and dropped in below. */
-export const promoters = [
-  {
-    id: "promoter-1",
-    name: "Promoter Name",
-    role: "Managing Promoter",
-    bio: "Promoter profile to be added — background, track record and role in founding Banyan Tree Group.",
-  },
-  {
-    id: "promoter-2",
-    name: "Promoter Name",
-    role: "Promoter & Director",
-    bio: "Promoter profile to be added — background, track record and role in founding Banyan Tree Group.",
-  },
-];
-
-/* Team member details to be supplied by Banyan Tree Group and dropped in below. */
-export const teamMembers = [
-  { id: "team-1", name: "Team Member", role: "Design & Architecture" },
-  { id: "team-2", name: "Team Member", role: "Construction & Engineering" },
-  { id: "team-3", name: "Team Member", role: "Sales & Advisory" },
-  { id: "team-4", name: "Team Member", role: "Customer Relations" },
-];
-
 export const leadershipTeam = [
   {
     id: "leader-1",
-    name: "Ravindra Madhudi",
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127181/ravi_t3p8te.png",
+    name: "Mr. Ravindra M Madhudi ",
     role: "Promoter & Executive Director",
-    bio: "Hailing from a family of real estate developers, Ravindra Madhudi has over 16 years of experience in fields as diverse as market research and real estate. With his finely honed business acumen, he has been able to build lasting relationships with several MNCs across India. As Executive Director, he manages business development, design, construction and marketing. A trailblazer, he inspires, motivates and leads the way for his employees.",
+    bio: " A Management Graduate with a specialization and affinity toward Marketing, Mr. Ravindra M Madhudi is a multi-faceted personality. In his career span of close to two decades, Mr. Madhudi has donned many hats, working in fields such as Construction, Real Estate, Journalism, Public Relations, Investment Banking, Pharmaceuticals, Finance and Publishing. He is responsible for the supervision and growth of Marketing, Business Development, Design and Construction aspects of the business. Walking the talk, Mr. Madhudi is a constant source of inspiration to his colleagues and employees.",
   },
   {
     id: "leader-2",
-    name: "Hemang Rawal",
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127171/hemag_kxzqj9.png",
+    name: "Mr. Hemang D Rawal  ",
     role: "Promoter & Managing Director",
-    bio: "A Chartered Accountant by qualification, Hemang brings to the table over 17 years of experience in the real estate industry. He has headed the south Indian operations of a British real estate services company – the 5th largest company worldwide in its field. He has been an advisor to various MNCs including Godrej, SKF Bearings, Zee Telefilms, McDonald's and Deutsche Bank, among others. He is on the panel of the Economic Times Realty and his articles appear regularly in newspapers.",
+    bio: " One of the Promoters, Mr. Hemang D Rawal has been the Managing Director since inception. A Chartered Accountant with over two decades of experience in the real estate sector, he initiated the Indian operations of a British Real Estate Service Company (the world’s 5th largest in its field).He has advised various multinational corporations (MNCs) and his expertise has helped navigate volatile times.He is also on the panel of The Economic Times Realty.",
   },
 ];
 

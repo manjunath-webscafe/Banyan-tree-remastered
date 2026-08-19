@@ -21,9 +21,9 @@ export default function Leadership() {
           </Reveal>
           <Reveal as="h2">Our leadership.</Reveal>
           <Reveal as="p" className="section-lede">
-            The people setting direction for Banyan Tree Group — steering
-            design standards, construction discipline and the promises we
-            make to every family who chooses us.
+            The people setting direction for Banyan Tree Group — steering design
+            standards, construction discipline and the promises we make to every
+            family who chooses us.
           </Reveal>
         </div>
 
@@ -31,9 +31,23 @@ export default function Leadership() {
           {leadershipTeam.map((leader) => (
             <Reveal as="article" className="leader-card" key={leader.id}>
               <div className="leader-portrait">
-                <span className="leader-portrait-frame" aria-hidden="true"></span>
-                <span className="leader-initials">{initials(leader.name)}</span>
+                <span
+                  className="leader-portrait-frame"
+                  aria-hidden="true"
+                ></span>
+                {leader.image ? (
+                  <img
+                    src={leader.image}
+                    alt={leader.name}
+                    className="leader-photo"
+                  />
+                ) : (
+                  <span className="leader-initials">
+                    {initials(leader.name)}
+                  </span>
+                )}
               </div>
+
               <div className="leader-info">
                 <h3>{leader.name}</h3>
                 <p className="leader-role">{leader.role}</p>

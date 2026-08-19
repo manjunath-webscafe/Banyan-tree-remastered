@@ -11,7 +11,7 @@ export default function CtaBanner() {
         />
       </div>
       <Reveal className="container cta-content">
-        <h2>Ready to see your address?</h2>
+        <h2 style={{marginTop:"10px"}}>Ready to see your address?</h2>
         <p>
           Request our current brochure or speak with a member of our team — no
           obligation, just an honest conversation.

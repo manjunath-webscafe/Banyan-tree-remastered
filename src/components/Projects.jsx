@@ -9,7 +9,7 @@ export default function Projects() {
   )?.key;
   const visibleStatusGroups = activeStatus
     ? projectStatusGroups.filter((group) => group.key === activeStatus)
-    : projectStatusGroups;
+    : [];
 
   return (
     <>
@@ -21,10 +21,9 @@ export default function Projects() {
             </Reveal>
             <Reveal as="h2">Addresses across Bengaluru.</Reveal>
             <Reveal as="p" className="section-lede">
-              From established enclaves to emerging corridors, each Banyan
-              Tree project is planned around the character of its
-              neighbourhood — never a template repeated from one site to the
-              next.
+              From established enclaves to emerging corridors, each Banyan Tree
+              project is planned around the character of its neighbourhood —
+              never a template repeated from one site to the next.
             </Reveal>
           </div>
 
@@ -59,53 +58,55 @@ export default function Projects() {
         </div>
       </section>
 
-      <section className="section journey" id="portfolio-status">
-        <div className="container">
-          <div className="section-head">
-            <Reveal as="p" className="eyebrow light">
-              Portfolio Status
-            </Reveal>
-            <Reveal as="h2" className="light">
-              Where every project stands today.
-            </Reveal>
-            {activeStatus && (
-              <Link to="/projects" className="status-view-all">
-                ← View all statuses
-              </Link>
-            )}
-          </div>
-
-          <div
-            className={`status-grid${activeStatus ? " status-grid-single" : ""}`}
-          >
-            {visibleStatusGroups.map((group) => (
-              <Reveal
-                as="article"
-                id={`status-${group.key}`}
-                className={`status-column status-column-${group.key}`}
-                key={group.key}
-              >
-                <h3>{group.label}</h3>
-                <p className="status-desc">{group.description}</p>
-                <ul className="status-list">
-                  {projects
-                    .filter((project) => project.status === group.key)
-                    .map((project) => (
-                      <li key={project.name}>
-                        <span className="status-project-name">
-                          {project.name}
-                        </span>
-                        <span className="status-project-loc">
-                          {project.location}
-                        </span>
-                      </li>
-                    ))}
-                </ul>
+      {activeStatus && (
+        <section className="section journey" id="portfolio-status">
+          <div className="container">
+            <div className="section-head">
+              <Reveal as="p" className="eyebrow light">
+                Portfolio Status
               </Reveal>
-            ))}
+              <Reveal as="h2" className="light">
+                Where every project stands today.
+              </Reveal>
+              {activeStatus && (
+                <Link to="/projects" className="status-view-all">
+                  ← View all statuses
+                </Link>
+              )}
+            </div>
+
+            <div
+              className={`status-grid${activeStatus ? " status-grid-single" : ""}`}
+            >
+              {visibleStatusGroups.map((group) => (
+                <Reveal
+                  as="article"
+                  id={`status-${group.key}`}
+                  className={`status-column status-column-${group.key}`}
+                  key={group.key}
+                >
+                  <h3>{group.label}</h3>
+                  <p className="status-desc">{group.description}</p>
+                  <ul className="status-list">
+                    {projects
+                      .filter((project) => project.status === group.key)
+                      .map((project) => (
+                        <li key={project.name}>
+                          <span className="status-project-name">
+                            {project.name}
+                          </span>
+                          <span className="status-project-loc">
+                            {project.location}
+                          </span>
+                        </li>
+                      ))}
+                  </ul>
+                </Reveal>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 }

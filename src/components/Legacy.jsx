@@ -15,26 +15,27 @@ export default function Legacy() {
 
         <div className="legacy-copy">
           <Reveal as="p" className="eyebrow">
-            The Beginning
+            Our Journey
           </Reveal>
-          <Reveal as="h2">A dream, planted in 2004.</Reveal>
+
+          <Reveal as="h2">Twenty years of building with intention.</Reveal>
+
           <Reveal as="p">
-            Banyan Tree Group began not as a company, but as a conviction — held
-            by a small circle of professionals who believed Bengaluru deserved
-            homes built with more patience than the market demanded. Two decades
-            on, that conviction has taken root across the city, in addresses
-            that families have chosen to call home, and in neighbourhoods we
-            have watched mature alongside our work.
+            Since 2004, Banyan Tree Group has grown alongside Bengaluru,
+            evolving from a small team with an ambitious vision into a developer
+            trusted to create enduring addresses across the city.
           </Reveal>
+
           <Reveal as="p">
-            We have never measured ourselves by scale alone. Every Banyan Tree
-            development carries the same discipline we started with: exacting
-            design, considered construction, and an unhurried commitment to
-            getting the details right — because a home, like a tree, is meant to
-            outlast the season it was planted in.
+            Each project has added something to that journey — new
+            neighbourhoods, new ideas and new standards for what a considered
+            home can be. Through every stage of our growth, we have remained
+            focused on the same fundamental belief: that good development should
+            contribute to the life of a place, not simply occupy it.
           </Reveal>
+
           <Reveal as="a" href="#philosophy" className="text-link">
-            Read our philosophy →
+            What guides us →
           </Reveal>
         </div>
       </div>
