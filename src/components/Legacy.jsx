@@ -6,7 +6,7 @@ export default function Legacy() {
       <div className="container legacy-grid">
         <Reveal className="legacy-media">
           <img
-            src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1200&q=80"
+            src="https://media.istockphoto.com/id/1409298953/photo/real-estate-agents-shake-hands-after-the-signing-of-the-contract-agreement-is-complete.jpg?s=612x612&w=0&k=20&c=SFybbpGMB0wIoI0tJotFqptzAYK_mICVITNdQIXqnyc="
             alt="Glass and stone facade of a Banyan Tree development"
             loading="lazy"
           />
