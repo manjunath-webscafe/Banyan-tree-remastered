@@ -950,12 +950,15 @@ em {
 
 .leadership-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 56px 40px;
+  grid-template-columns: repeat(2, minmax(270px, 1fr));
+  gap: 56px 120px;
+  /* margin-left: 150px; */
+ 
 }
 
 .leader-card {
-  text-align: center;
+ width: 100%;
+
 }
 
 /* Compact portrait area */
@@ -963,7 +966,7 @@ em {
   position: relative;
   width: 270px;
   height: 378px;
-  margin: 0 auto 28px;
+  margin: 0 0 40px; /* was: 0 0 28px — more gap between photo and name below */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1028,14 +1031,16 @@ em {
 }
 
 .leader-info h3 {
-  margin-bottom: 6px;
-  font-size: 1.3rem;
+  margin-bottom: 14px; /* was: 6px — more gap between name and bio */
+  font-size: 1.4rem; /* was: 1.3rem — slightly bigger name to match reference weight */
 }
 
 .leader-bio {
-  font-size: 0.92rem;
-  max-width: 32ch;
-  margin: 0 auto;
+  font-size: 1rem; /* was: 0.92rem */
+  line-height: 1.75; /* new — this is the biggest fix; default line-height reads dense at this width */
+  max-width: 56ch; /* was: 46ch — wider column so lines breathe instead of wrapping tight */
+  margin: 0;
+  text-align: justify;
 }
 
 .leadership-grid .reveal:nth-child(2) {
@@ -1044,6 +1049,9 @@ em {
 
 .leadership-grid .reveal:nth-child(3) {
   transition-delay: 0.24s;
+}
+.leader-bio-italic {
+  font-style: italic;
 }
 
 /* =========================================================
