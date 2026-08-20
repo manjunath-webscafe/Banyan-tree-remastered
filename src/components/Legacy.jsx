@@ -18,10 +18,10 @@ export default function Legacy() {
             Our Journey
           </Reveal>
 
-          <Reveal as="h2">Twenty years of building with intention.</Reveal>
+          <Reveal as="h2">three decades years of building with intention.</Reveal>
 
           <Reveal as="p">
-            Since 2004, Banyan Tree Group has grown alongside Bengaluru,
+            2004, Banyan Tree Group has grown alongside Bengaluru,
             evolving from a small team with an ambitious vision into a developer
             trusted to create enduring addresses across the city.
           </Reveal>
