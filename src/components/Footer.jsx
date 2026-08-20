@@ -58,7 +58,7 @@ export default function Footer() {
             <BrandMark simple />
           </a>
           <p>
-            Two decades of landmark residences across Bengaluru — built on
+            three decades of landmark residences across Bengaluru — built on
             design integrity, honest craft and lasting trust.
           </p>
 

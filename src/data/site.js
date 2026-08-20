@@ -133,8 +133,7 @@ export const projects = [
     location: "JP nagar",
     tag: "Residential",
     status: "completed",
-    image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80",
+    image: "",
     alt: "Anand Apartments, a Banyan Tree residence JP nagar",
   },
   {
@@ -142,18 +141,12 @@ export const projects = [
     location: "Vijayanagar",
     tag: "Residential",
     status: "completed",
-    image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535354/North_Square_hqadmf.png",
-    alt: "Basaveshwara Layout, a Banyan Tree development in Vijayanagar",
   },
   {
     name: "Basaveshwara Layout Phase 2",
     location: "Chandra Layout, Vijayanagar",
     tag: "Residential",
     status: "completed",
-    image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535307/Bliss_rrbomy.png",
-    alt: "Basaveshwara Layout Phase 2, a Banyan Tree development in Chandra Layout, Vijayanagar",
   },
   {
     name: "Ashirwad Apartments",
@@ -169,17 +162,13 @@ export const projects = [
     location: "Magadi Road",
     tag: "Residential",
     status: "completed",
-    image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535367/Rhythm_sjxw04.png",
-    alt: "Ashirwad Layout, a Banyan Tree development on Magadi Road",
   },
   {
     name: "Trishul Commercial Complex",
     location: "RPC Layout, Vijayanagar",
     tag: "Commercial",
     status: "completed",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
+    image: "",
     alt: "Trishul Commercial Complex, a Banyan Tree development in RPC Layout, Vijayanagar",
   },
   {
@@ -187,8 +176,7 @@ export const projects = [
     location: "Chandra Layout, Vijayanagar",
     tag: "Commercial",
     status: "completed",
-    image:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80",
+    image: "",
     alt: "Ashirwad Commercial Complex, a Banyan Tree development in Chandra Layout, Vijayanagar",
   },
   {
@@ -196,8 +184,7 @@ export const projects = [
     location: "Nagarbhavi Main Road",
     tag: "Residential",
     status: "completed",
-    image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80",
+    image: "",
     alt: "Coconut Garden, a Banyan Tree residence on Nagarbhavi Main Road",
   },
   {
@@ -206,8 +193,7 @@ export const projects = [
     tag: "Ongoing",
     status: "ongoing",
     upcoming: true,
-    image:
-      "https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?auto=format&fit=crop&w=900&q=80",
+    image: "",
     alt: "Marigold Homes, an ongoing Banyan Tree development",
   },
   {
@@ -231,7 +217,7 @@ export const features = [
     body: "Our in\u2011house advisory works alongside leading lenders to structure financing that fits your family's plans, not just ours.",
   },
   {
-    title: "Over Two Decades of Trust",
+    title: "Over three decades of Trust",
     body: "Generations of Bengaluru families have chosen Banyan Tree — a track record built on homes that were delivered as promised.",
   },
   {
@@ -276,7 +262,7 @@ export const projectStatusGroups = [
     key: "completed",
     label: "Completed Projects",
     description:
-      "Delivered, occupied and standing as proof of two decades of design integrity and honest craft.",
+      "Delivered, occupied and standing as proof of three decades of design integrity and honest craft.",
   },
   {
     key: "ongoing",
@@ -298,16 +284,14 @@ export const leadershipTeam = [
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127181/ravi_t3p8te.png",
     name: "Mr. Ravindra M Madhudi ",
-    role: "Promoter & Executive Director",
-    bio: " A Management Graduate with a specialization and affinity toward Marketing, Mr. Ravindra M Madhudi is a multi-faceted personality. In his career span of close to two decades, Mr. Madhudi has donned many hats, working in fields such as Construction, Real Estate, Journalism, Public Relations, Investment Banking, Pharmaceuticals, Finance and Publishing. He is responsible for the supervision and growth of Marketing, Business Development, Design and Construction aspects of the business. Walking the talk, Mr. Madhudi is a constant source of inspiration to his colleagues and employees.",
+    bio: "Ravindra M. Madhudi is a Management Graduate with a specialization and strong affinity for Marketing, and comes from a family with a long-standing background in real estate development. With close to three decades of professional experience, he has worked across diverse sectors including Construction, Real Estate, Journalism, Public Relations, Investment Banking, Pharmaceuticals, Finance and Publishing.He oversees and drives key aspects of the business, including Marketing, Business Development, Design and Construction. His strong business acumen and industry experience have enabled him to build lasting relationships with several MNCs across India. A multifaceted leader, he is known for his ability to inspire, motivate and lead his colleagues and employees while contributing to the continued growth of the organization.",
   },
   {
     id: "leader-2",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127171/hemag_kxzqj9.png",
     name: "Mr. Hemang D Rawal  ",
-    role: "Promoter & Managing Director",
-    bio: " One of the Promoters, Mr. Hemang D Rawal has been the Managing Director since inception. A Chartered Accountant with over two decades of experience in the real estate sector, he initiated the Indian operations of a British Real Estate Service Company (the world’s 5th largest in its field).He has advised various multinational corporations (MNCs) and his expertise has helped navigate volatile times.He is also on the panel of The Economic Times Realty.",
+    bio: " Mr. Hemang D. Rawal is a Chartered Accountant by qualification, he brings over three decades of experience in the real estate sector.He initiated the Indian operations of a British Real Estate Services Company, ranked among the world's largest in its field, and has advised several leading multinational corporations, including Godrej, SKF Bearings, Zee Telefilms, McDonald's and Deutsche Bank. His extensive industry expertise and business acumen have helped organizations navigate challenging and volatile market conditions. He is also on the panel of The Economic Times Realty, and his insights and articles have appeared in leading newspapers.",
   },
 ];
 
@@ -353,7 +337,7 @@ export const faqs = [
   },
   {
     q: "Do you build outside Bengaluru?",
-    a: "Our current portfolio is concentrated in Bengaluru, where two decades of local knowledge lets us plan with real precision. We evaluate new markets carefully and deliberately.",
+    a: "Our current portfolio is concentrated in Bengaluru, where three decades of local knowledge lets us plan with real precision. We evaluate new markets carefully and deliberately.",
   },
 ];
 

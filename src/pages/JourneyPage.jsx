@@ -9,7 +9,7 @@ export default function JourneyPage() {
       <PageHeader
         subtitle="Our Story"
         title="The Journey Continues"
-        description="Follow us through two decades of growth, innovation, and transformation in Bengaluru's real estate."
+        description="Follow us through three decades of growth, innovation, and transformation in Bengaluru's real estate."
       />
       <Journey />
       <Gallery />

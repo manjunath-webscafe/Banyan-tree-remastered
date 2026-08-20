@@ -50,7 +50,6 @@ export default function Leadership() {
 
               <div className="leader-info">
                 <h3>{leader.name}</h3>
-                <p className="leader-role">{leader.role}</p>
                 <p className="leader-bio">{leader.bio}</p>
               </div>
             </Reveal>

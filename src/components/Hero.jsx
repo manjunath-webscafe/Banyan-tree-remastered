@@ -31,9 +31,10 @@ export default function Hero() {
           <em>Built for generations.</em>
         </Reveal>
         <Reveal as="p" className="hero-sub">
-          Banyan Tree Group has spent over two decades shaping Bengaluru&apos;s
-          finest addresses — where thoughtful architecture, honest craft and
-          quiet luxury are allowed to grow, slowly and deliberately.
+          Banyan Tree Group has spent over three decades shaping
+          Bengaluru&apos;s finest addresses — where thoughtful architecture,
+          honest craft and quiet luxury are allowed to grow, slowly and
+          deliberately.
         </Reveal>
         <Reveal className="hero-cta">
           <a href="#projects" className="btn btn-primary">
