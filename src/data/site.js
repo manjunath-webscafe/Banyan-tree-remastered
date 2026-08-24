@@ -141,6 +141,8 @@ export const projects = [
     location: "Vijayanagar",
     tag: "Residential",
     status: "completed",
+      image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566111/plot2_iebvrg.jpg",
   },
   {
     name: "Basaveshwara Layout Phase 2",
@@ -162,6 +164,8 @@ export const projects = [
     location: "Magadi Road",
     tag: "Residential",
     status: "completed",
+   image:"https://res.cloudinary.com/flxf4ltt/image/upload/v1787566308/magdi_road_kj3vra.jpg"
+     
   },
   {
     name: "Trishul Commercial Complex",
