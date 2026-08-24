@@ -21,8 +21,7 @@ export default function Leadership() {
           </Reveal>
           <Reveal as="h2">Profesional Leadership</Reveal>
           <Reveal as="p" className="section-lede">
-            Who we are <br></br>Leadership to be changed to Promoters and
-            Shareholders
+            Who we are 
           </Reveal>
         </div>
 
