@@ -6,9 +6,9 @@ export default function LeadershipPage() {
   return (
     <>
       <PageHeader
-        subtitle="Who We Are"
-        title="Leadership"
-        description="The people setting direction for Banyan Tree Group, and the standards they hold every address to."
+        subtitle="Promoters and Shareholders"
+        title="Professional Leadership"
+        description="Family officer and individual Networth"
       />
       <Leadership />
       <CtaBanner />
