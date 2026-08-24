@@ -149,6 +149,7 @@ export const projects = [
     location: "Chandra Layout, Vijayanagar",
     tag: "Residential",
     status: "completed",
+      image:"https://res.cloudinary.com/flxf4ltt/image/upload/v1787566086/plot1_ay07vb.jpg"
   },
   {
     name: "Ashirwad Apartments",
