@@ -181,7 +181,7 @@ export const projects = [
     location: "Chandra Layout, Vijayanagar",
     tag: "Commercial",
     status: "completed",
-    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/complex2_eyh7qp.webp",
+    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787568187/complex_qygnpb.jpg",
     alt: "Ashirwad Commercial Complex, a Banyan Tree development in Chandra Layout, Vijayanagar",
   },
   {
