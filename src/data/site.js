@@ -133,7 +133,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535367/Rhythm_sjxw04.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787567998/G_3_sp6apf.jpg",
     alt: "Anand Apartments, a Banyan Tree residence JP nagar",
   },
   {
