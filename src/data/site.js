@@ -173,7 +173,7 @@ export const projects = [
     location: "RPC Layout, Vijayanagar",
     tag: "Commercial",
     status: "completed",
-    image: "",
+    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/thrishul_complex_vclolr.jpg",
     alt: "Trishul Commercial Complex, a Banyan Tree development in RPC Layout, Vijayanagar",
   },
   {
@@ -181,7 +181,7 @@ export const projects = [
     location: "Chandra Layout, Vijayanagar",
     tag: "Commercial",
     status: "completed",
-    image: "",
+    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/complex2_eyh7qp.webp",
     alt: "Ashirwad Commercial Complex, a Banyan Tree development in Chandra Layout, Vijayanagar",
   },
   {
@@ -189,7 +189,7 @@ export const projects = [
     location: "Nagarbhavi Main Road",
     tag: "Residential",
     status: "completed",
-    image: "",
+    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/coconut_garden_o6dazx.jpg",
     alt: "Coconut Garden, a Banyan Tree residence on Nagarbhavi Main Road",
   },
   {
