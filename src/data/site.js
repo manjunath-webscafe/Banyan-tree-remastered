@@ -12,7 +12,6 @@ export const navLinks = [
     submenu: [
       { href: "/projects#status-completed", label: "Completed" },
       { href: "/projects#status-ongoing", label: "Ongoing" },
-      { href: "/projects#status-upcoming", label: "Upcoming" },
     ],
   },
   { href: "/journey", label: "Journey" },
@@ -107,7 +106,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535398/Sunshine_gifp8j.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787548390/sunshine_fsxi28.png",
     alt: "Sunshine, a Banyan Tree residence in Sarjapur",
   },
   {
@@ -133,7 +132,8 @@ export const projects = [
     location: "JP nagar",
     tag: "Residential",
     status: "completed",
-    image: "",
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535367/Rhythm_sjxw04.png",
     alt: "Anand Apartments, a Banyan Tree residence JP nagar",
   },
   {
@@ -193,14 +193,16 @@ export const projects = [
     tag: "Ongoing",
     status: "ongoing",
     upcoming: true,
-    image: "",
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787549893/marigold_uhzuy9.jpg",
     alt: "Marigold Homes, an ongoing Banyan Tree development",
   },
   {
     name: "Coming Soon....!",
     location: "Bengaluru",
-    tag: "Upcoming",
-    status: "upcoming",
+    tag: "Ongoing",
+    status: "ongoing",
+    upcoming: true,
     image:
       "https://i.pinimg.com/736x/74/99/a0/7499a03f6a46b393186eb0b287fd05f6.jpg",
     alt: "upcoming",
@@ -269,12 +271,6 @@ export const projectStatusGroups = [
     label: "Ongoing Projects",
     description:
       "Under active construction today, supervised in‑house at every stage from foundation to finish.",
-  },
-  {
-    key: "upcoming",
-    label: "Upcoming Projects",
-    description:
-      "In design and planning — the next addresses set to join our portfolio.",
   },
 ];
 

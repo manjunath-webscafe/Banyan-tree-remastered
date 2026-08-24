@@ -1,4 +1,5 @@
 import Reveal from "./Reveal.jsx";
+import legacy_image from "../assets/legacy'.jpg";
 
 export default function Legacy() {
   return (
@@ -6,7 +7,7 @@ export default function Legacy() {
       <div className="container legacy-grid">
         <Reveal className="legacy-media">
           <img
-            src="https://media.istockphoto.com/id/1409298953/photo/real-estate-agents-shake-hands-after-the-signing-of-the-contract-agreement-is-complete.jpg?s=612x612&w=0&k=20&c=SFybbpGMB0wIoI0tJotFqptzAYK_mICVITNdQIXqnyc="
+            src={legacy_image}
             alt="Glass and stone facade of a Banyan Tree development"
             loading="lazy"
           />
@@ -18,12 +19,14 @@ export default function Legacy() {
             Our Journey
           </Reveal>
 
-          <Reveal as="h2">three decades years of building with intention.</Reveal>
+          <Reveal as="h2">
+            three decades years of building with intention.
+          </Reveal>
 
           <Reveal as="p">
-            2004, Banyan Tree Group has grown alongside Bengaluru,
-            evolving from a small team with an ambitious vision into a developer
-            trusted to create enduring addresses across the city.
+            2004, Banyan Tree Group has grown alongside Bengaluru, evolving from
+            a small team with an ambitious vision into a developer trusted to
+            create enduring addresses across the city.
           </Reveal>
 
           <Reveal as="p">
