@@ -8,7 +8,7 @@ export default function LeadershipPage() {
       <PageHeader
         subtitle="Promoters and Shareholders"
         title="Professional Leadership"
-        description="Family Officers and individual Networth"
+        description="Family Officers and High Individual Networth"
       />
       <Leadership />
       <CtaBanner />
