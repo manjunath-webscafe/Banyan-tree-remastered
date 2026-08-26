@@ -115,7 +115,7 @@ export const projects = [
     tag: "Villas",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786534572/Lake_Drive_vwdvtw.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787736455/lake_drive.png",
     alt: "Lake Drive, a Banyan Tree villa community on Old Madras Road",
   },
   {
