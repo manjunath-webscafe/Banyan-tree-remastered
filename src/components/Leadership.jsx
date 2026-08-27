@@ -17,9 +17,9 @@ export default function Leadership() {
       <div className="container">
         <div className="section-head center">
           <Reveal as="p" className="eyebrow">
-            Guiding the Vision
+            Empowering Teams, Inspiring Growth
           </Reveal>
-          <Reveal as="h2">Profesional Leadership</Reveal>
+          <Reveal as="h2">Leadership in Action  </Reveal>
           <Reveal as="p" className="section-lede">
            Promoters and Shareholders <br></br> 
           </Reveal>
