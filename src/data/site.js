@@ -240,7 +240,7 @@ export const journeySteps = [
   {
     num: "01",
     title: "Discover",
-    body: "We study the land before we design for it — light, soil, existing trees and the rhythm of the neighbourhood around it.",
+    body: "We study the land before we design for it light, soil, existing trees and the rhythm of the neighbourhood around it.",
   },
   {
     num: "02",
