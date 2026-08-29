@@ -6,9 +6,9 @@ export default function LeadershipPage() {
   return (
     <>
       <PageHeader
-        subtitle="Promoters and Shareholders"
-        title="Professional Leadership"
-        description="Family officer and individual Networth"
+        subtitle="Promoters & Shareholders"
+        title="Visionary Leadership"
+        description="A trusted leadership team combining experience, strategic vision, and a commitment to sustainable growth."
       />
       <Leadership />
       <CtaBanner />
