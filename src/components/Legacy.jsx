@@ -1,5 +1,4 @@
 import Reveal from "./Reveal.jsx";
-import legacy_image from "../assets/legacy'.jpg";
 
 export default function Legacy() {
   return (
@@ -7,7 +6,7 @@ export default function Legacy() {
       <div className="container legacy-grid">
         <Reveal className="legacy-media">
           <img
-            src={legacy_image}
+            src="https://res.cloudinary.com/flxf4ltt/image/upload/v1787990432/unnamed_zc72ty.jpg"
             alt="Glass and stone facade of a Banyan Tree development"
             loading="lazy"
           />
