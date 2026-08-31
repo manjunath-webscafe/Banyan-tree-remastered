@@ -41,24 +41,24 @@ export const stats = [
 
 export const pillars = [
   {
-    id: "design-integrity",
-    title: "Design Integrity",
-    body: "Every plan is drawn to be lived in first, admired second — spaces that resolve honestly, without ornament for its own sake.",
+    id: "absolute-honesty",
+    title: "Absolute Honesty",
+    body: "Every conversation, commitment and decision is grounded in absolute honesty — the trust placed in us by our clients and community is never taken lightly.",
   },
   {
-    id: "enduring-craft",
-    title: "Enduring Craft",
-    body: "Material and method are chosen for the decades ahead, not the handover date — quality that reveals itself over years, not weeks.",
+    id: "ethical-standards",
+    title: "Ethical Standards",
+    body: "Unwavering ethical standards guide every partnership we form — how we work with landowners, contractors, buyers and neighbours is non‑negotiable.",
   },
   {
-    id: "rooted-sustainability",
-    title: "Rooted Sustainability",
-    body: "We plan around existing trees and natural light, not against them — building that leaves a neighbourhood greener than it found it.",
+    id: "legal-compliance",
+    title: "Legal Compliance",
+    body: "Immaculate legal compliance across every process — full regulatory transparency, clear documentation and nothing left to chance or assumption.",
   },
   {
-    id: "complete-transparency",
-    title: "Complete Transparency",
-    body: "Every timeline, cost and specification is shared plainly — the same information for us and for the family choosing to invest in us.",
+    id: "construction-quality",
+    title: "Construction Quality",
+    body: "The highest quality of construction in every detail — we refuse to compromise on structural integrity, precision craftsmanship or lasting performance.",
   },
 ];
 

@@ -203,18 +203,21 @@ em {
   margin-bottom: 64px;
 }
 .section-head.center {
-  max-width: 640px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 .section-lede {
   font-size: 1.05rem;
-  max-width: 52ch;
+  max-width: 58ch;
 }
 .section-head.center .section-lede {
   margin-left: auto;
   margin-right: auto;
+}
+.philosophy-lede-follow {
+  margin-top: 16px;
 }
 
 .text-link {
