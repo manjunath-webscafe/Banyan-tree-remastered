@@ -21,7 +21,7 @@ export default function Leadership() {
           </Reveal>
           <Reveal as="h2">Leadership in Action  </Reveal>
           <Reveal as="p" className="section-lede">
-           Promoters and Shareholders <br></br> 
+           Shareholders, Family &amp; HNI
           </Reveal>
         </div>
 

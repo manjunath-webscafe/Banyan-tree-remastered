@@ -834,6 +834,111 @@ em {
   font-weight: 600;
 }
 
+.legacy-acronym-wrap {
+  margin-top: 72px;
+}
+
+.legacy-acronym-eyebrow {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.legacy-acronym-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.legacy-acronym-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px 18px;
+  text-align: center;
+}
+
+.legacy-acronym-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+}
+
+.legacy-acronym-card h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--forest-900);
+}
+
+.legacy-acronym-card p {
+  font-size: 0.86rem;
+  color: var(--charcoal-60);
+  margin: 0;
+  line-height: 1.55;
+}
+
+.journey-inline {
+  margin-top: 88px;
+  padding-top: 64px;
+  border-top: 1px solid var(--line);
+}
+
+/* =========================================================
+   VASTU
+   ========================================================= */
+.vastu {
+  background: var(--beige-soft);
+}
+
+.vastu-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 88px;
+  align-items: start;
+}
+
+.vastu-intro h2 {
+  max-width: 470px;
+  margin-bottom: 0;
+}
+
+.vastu-copy {
+  max-width: 650px;
+}
+
+.vastu-copy p {
+  color: var(--charcoal-60);
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.vastu-copy p + p {
+  margin-top: 20px;
+}
+
+.vastu-principles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.vastu-principles li {
+  border-top: 1px solid rgba(38, 38, 32, 0.25);
+  padding-top: 14px;
+  color: var(--forest-700);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
 /* =========================================================
    PHILOSOPHY
    ========================================================= */
@@ -1140,6 +1245,51 @@ em {
 .section-cta-row {
   margin-top: 56px;
   text-align: center;
+}
+
+.project-status-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+.project-status-card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  transition:
+    transform 0.45s var(--ease),
+    box-shadow 0.45s var(--ease);
+}
+.project-status-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 26px 50px -18px rgba(16, 36, 28, 0.28);
+}
+.project-status-media {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 16/10;
+}
+.project-status-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease);
+}
+.project-status-card:hover .project-status-media img {
+  transform: scale(1.06);
+}
+.project-status-body {
+  padding: 28px 30px 32px;
+}
+.project-status-body h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.project-status-body p {
+  font-size: 0.94rem;
+  color: var(--charcoal-60);
+  margin-bottom: 16px;
 }
 
 /* =========================================================
@@ -1670,12 +1820,16 @@ em {
    ========================================================= */
 @media (max-width: 1080px) {
   .legacy-grid,
-  .contact-grid {
+  .contact-grid,
+  .vastu-grid {
     grid-template-columns: 1fr;
     gap: 56px;
   }
   .pillar-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .legacy-acronym-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1794,7 +1948,9 @@ em {
     font-size: 2rem;
   }
   .pillar-grid,
+  .legacy-acronym-grid,
   .project-grid,
+  .project-status-grid,
   .feature-grid,
   .timeline,
   .people-grid,

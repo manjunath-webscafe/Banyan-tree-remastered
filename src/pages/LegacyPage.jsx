@@ -9,8 +9,8 @@ export default function LegacyPage() {
     <>
       <PageHeader
         subtitle="Our Heritage"
-        title="Legacy & Philosophy"
-        description="Discover how Banyan Tree Group has shaped Bengaluru's finest addresses, and the principles that guide every one of them."
+        title="Our Story"
+        description="Discover how Banyan Tree Group has shaped Bengaluru's finest addresses, the principles that guide every one of them, and the process that brings each home to life."
       />
       <Legacy />
       <Philosophy />

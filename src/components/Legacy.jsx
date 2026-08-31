@@ -1,4 +1,5 @@
 import Reveal from "./Reveal.jsx";
+import { legacyAcronym, journeySteps } from "../data/site.js";
 
 export default function Legacy() {
   return (
@@ -15,12 +16,10 @@ export default function Legacy() {
 
         <div className="legacy-copy">
           <Reveal as="p" className="eyebrow">
-            Our Journey
+            Our Story
           </Reveal>
 
-          <Reveal as="h2">
-            three decades years of building with intention.
-          </Reveal>
+          <Reveal as="h2">Three decades of building with intention.</Reveal>
 
           <Reveal as="p">
             2004, Banyan Tree Group has grown alongside Bengaluru, evolving from
@@ -40,6 +39,42 @@ export default function Legacy() {
             What guides us →
           </Reveal>
         </div>
+      </div>
+
+      <div className="container legacy-acronym-wrap">
+        <Reveal as="p" className="eyebrow legacy-acronym-eyebrow">
+          What LEGACY Means to Us
+        </Reveal>
+        <div className="legacy-acronym-grid">
+          {legacyAcronym.map((item) => (
+            <Reveal as="article" className="legacy-acronym-card" key={item.letter}>
+              <span className="legacy-acronym-letter">{item.letter}</span>
+              <h3>{item.word}</h3>
+              <p>{item.body}</p>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+
+      <div className="container journey-inline" id="journey">
+        <div className="section-head">
+          <Reveal as="p" className="eyebrow">
+            From Site to Home
+          </Reveal>
+          <Reveal as="h2">How a Banyan Tree address comes to life.</Reveal>
+        </div>
+
+        <ol className="timeline">
+          {journeySteps.map((step) => (
+            <Reveal as="li" className="timeline-item" key={step.num}>
+              <span className="timeline-num">{step.num}</span>
+              <div className="timeline-body">
+                <h3>{step.title}</h3>
+                <p>{step.body}</p>
+              </div>
+            </Reveal>
+          ))}
+        </ol>
       </div>
     </section>
   );

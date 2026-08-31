@@ -4,7 +4,7 @@ import Legacy from "../components/Legacy.jsx";
 import Philosophy from "../components/Philosophy.jsx";
 import Projects from "../components/Projects.jsx";
 import WhyChooseUs from "../components/WhyChooseUs.jsx";
-import Journey from "../components/Journey.jsx";
+import Vastu from "../components/Vastu.jsx";
 import Gallery from "../components/Gallery.jsx";
 import Faq from "../components/Faq.jsx";
 import CtaBanner from "../components/CtaBanner.jsx";
@@ -16,9 +16,9 @@ export default function Home() {
       <StatStrip />
       <Legacy />
       <Philosophy />
-      <Projects />
+      <Projects featured />
+      <Vastu />
       <WhyChooseUs />
-      <Journey />
       <Gallery />
       <Faq />
       <CtaBanner />

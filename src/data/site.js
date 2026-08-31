@@ -4,7 +4,7 @@
 export const brandName = "Banyan\u00A0Tree";
 
 export const navLinks = [
-  { href: "/legacy", label: "Legacy" },
+  { href: "/legacy", label: "Our Story" },
   { href: "/leadership", label: "Leadership" },
   {
     href: "/projects",
@@ -14,7 +14,6 @@ export const navLinks = [
       { href: "/projects#status-ongoing", label: "Ongoing" },
     ],
   },
-  { href: "/journey", label: "Journey" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -141,7 +140,7 @@ export const projects = [
     location: "Vijayanagar",
     tag: "Residential",
     status: "completed",
-      image:
+    image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566111/plot2_iebvrg.jpg",
   },
   {
@@ -149,7 +148,8 @@ export const projects = [
     location: "Chandra Layout, Vijayanagar",
     tag: "Residential",
     status: "completed",
-      image:"https://res.cloudinary.com/flxf4ltt/image/upload/v1787566086/plot1_ay07vb.jpg"
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566086/plot1_ay07vb.jpg",
   },
   {
     name: "Ashirwad Apartments",
@@ -165,15 +165,16 @@ export const projects = [
     location: "Magadi Road",
     tag: "Residential",
     status: "completed",
-   image:"https://res.cloudinary.com/flxf4ltt/image/upload/v1787566308/magdi_road_kj3vra.jpg"
-     
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566308/magdi_road_kj3vra.jpg",
   },
   {
     name: "Trishul Commercial Complex",
     location: "RPC Layout, Vijayanagar",
     tag: "Commercial",
     status: "completed",
-    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/thrishul_complex_vclolr.jpg",
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/thrishul_complex_vclolr.jpg",
     alt: "Trishul Commercial Complex, a Banyan Tree development in RPC Layout, Vijayanagar",
   },
   {
@@ -181,17 +182,18 @@ export const projects = [
     location: "Chandra Layout, Vijayanagar",
     tag: "Commercial",
     status: "completed",
-    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787568187/complex_qygnpb.jpg",
+    image:
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787568187/complex_qygnpb.jpg",
     alt: "Ashirwad Commercial Complex, a Banyan Tree development in Chandra Layout, Vijayanagar",
   },
-  {
-    name: "Coconut Garden",
-    location: "Nagarbhavi Main Road",
-    tag: "Residential",
-    status: "completed",
-    image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/coconut_garden_o6dazx.jpg",
-    alt: "Coconut Garden, a Banyan Tree residence on Nagarbhavi Main Road",
-  },
+  // {
+  //   name: "Coconut Garden",
+  //   location: "Nagarbhavi Main Road",
+  //   tag: "Residential",
+  //   status: "completed",
+  //   image: "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566900/coconut_garden_o6dazx.jpg",
+  //   alt: "Coconut Garden, a Banyan Tree residence on Nagarbhavi Main Road",
+  // },
   {
     name: "Marigold Homes",
     location: "Bengaluru",
@@ -216,6 +218,10 @@ export const projects = [
 
 export const features = [
   {
+    title: "Unparalleled Specifications",
+    body: "Structure, fittings and finishes are specified to a standard few developers match — nothing scaled back once the sale is made.",
+  },
+  {
     title: "A Considered Portfolio",
     body: "Every address is chosen and designed with restraint, not volume — a portfolio built one deliberate project at a time.",
   },
@@ -239,6 +245,15 @@ export const features = [
     title: "Neighbourhood Intelligence",
     body: "Our teams know each micro\u2011market intimately — schools, transit and civic infrastructure — before we ever break ground.",
   },
+];
+
+export const legacyAcronym = [
+  { letter: "L", word: "Landmark", body: "Addresses across Bengaluru that stand as landmarks in their own neighbourhoods." },
+  { letter: "E", word: "Enduring", body: "Craft and materials chosen for the decades ahead, not the handover date." },
+  { letter: "G", word: "Growth", body: "Grown steadily alongside the city since 2004 — never rushed, never templated." },
+  { letter: "A", word: "Architecture", body: "Design led in‑house at every stage, from first blueprint to final finish." },
+  { letter: "C", word: "Complete Transparency", body: "Every timeline, cost and specification shared plainly, at every stage." },
+  { letter: "Y", word: "Years of Trust", body: "Three decades and 1,200+ families who chose to call a Banyan Tree address home." },
 ];
 
 export const journeySteps = [
@@ -285,14 +300,14 @@ export const leadershipTeam = [
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127181/ravi_t3p8te.png",
     name: "Mr. Ravindra M Madhudi ",
-    bio: "Ravindra M. Madhudi is a Management Graduate with a specialization and strong affinity for Marketing, and comes from a family with a long-standing background in real estate development. With close to three decades of professional experience, he has worked across diverse sectors including Construction, Real Estate, Journalism, Public Relations, Investment Banking, Pharmaceuticals, Finance and Publishing.He oversees and drives key aspects of the business, including Marketing, Business Development, Design and Construction. His strong business acumen and industry experience have enabled him to build lasting relationships with several MNCs across India. A multifaceted leader, he is known for his ability to inspire, motivate and lead his colleagues and employees while contributing to the continued growth of the organization.",
+    bio: "Ravindra M. Madhudi brings nearly three decades of multi-disciplinary executive experience to his leadership role, backed by an advanced academic background in marketing and business administration. His career spans diverse sectors including real estate, construction, investment banking, public relations, finance, and publishing. Steering corporate strategy and execution, he actively drives key business functions—expanding commercial footprints through strategic MNC partnerships, overseeing project design and construction standards to ensure structural quality, and cultivating a high-performance work culture through strong organizational leadership. His broad domain expertise across financial markets, media, and real estate enables a versatile, sharp approach to managing complex corporate ventures, project developments, and high-value stakes.",
   },
   {
     id: "leader-2",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1787127171/hemag_kxzqj9.png",
     name: "Mr. Hemang D Rawal  ",
-    bio: " Mr. Hemang D. Rawal is a Chartered Accountant by qualification, he brings over three decades of experience in the real estate sector.He initiated the Indian operations of a British Real Estate Services Company, ranked among the world's largest in its field, and has advised several leading multinational corporations, including Godrej, SKF Bearings, Zee Telefilms, McDonald's and Deutsche Bank. His extensive industry expertise and business acumen have helped organizations navigate challenging and volatile market conditions. He is also on the panel of The Economic Times Realty, and his insights and articles have appeared in leading newspapers.",
+    bio: " Hemang D. Rawal is a Chartered Accountant by qualification with over three decades of distinguished experience in the real estate sector. Having initiated and led the Indian operations for one of the world's largest British real estate services firms, he has served as a strategic advisor to leading multinational corporations, including Godrej, SKF Bearings, Sony Entertainment , TCG group, McDonald's, and Deutsche Bank. A recognized industry authority, he sits on the panel of The Economic Times Realty and regularly contributes insights to leading publications, helping organizations successfully navigate volatile market conditions. Drawing on his deep financial acumen and industry foresight, he drives the company's core fiscal and operational functions—overseeing finance, banking strategy, accounting governance, and statutory compliances to ensure long-term stability and absolute regulatory integrity.",
   },
 ];
 
@@ -344,9 +359,8 @@ export const faqs = [
 
 export const footerQuickLinks = [
   { href: "#top", label: "Home" },
-  { href: "#legacy", label: "About Us" },
+  { href: "/legacy", label: "Our Story" },
   { href: "#projects", label: "Projects" },
-  { href: "#journey", label: "Journey" },
   { href: "#contact", label: "Contact Us" },
 ];
 
@@ -362,14 +376,13 @@ export const footerProjects = [
   "Basaveshwara Layout",
   "Ashirwad Apartments",
   "Ashirwad Layout",
-  "Coconut Garden",
 ];
 
 /* Real profile URLs to be added later — hrefs are placeholders until then. */
 export const socialLinks = [
+  { label: "YouTube", href: "#" },
   { label: "Instagram", href: "#" },
-  { label: "Facebook", href: "#" },
-  { label: "Twitter", href: "#" },
   { label: "LinkedIn", href: "#" },
+  { label: "Facebook", href: "#" },
   { label: "Mail", href: `mailto:${contact.email}` },
 ];

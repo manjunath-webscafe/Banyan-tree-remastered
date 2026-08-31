@@ -6,7 +6,7 @@ export default function LeadershipPage() {
   return (
     <>
       <PageHeader
-        subtitle="Promoters & Shareholders"
+        subtitle="Shareholders, Family & HNI"
         title="Visionary Leadership"
         description="A trusted leadership team combining experience, strategic vision, and a commitment to sustainable growth."
       />
