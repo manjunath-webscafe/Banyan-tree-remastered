@@ -114,7 +114,7 @@ export const projects = [
     tag: "Villas",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787736455/lake_drive.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788238886/lake_vybpeo.png",
     alt: "Lake Drive, a Banyan Tree villa community on Old Madras Road",
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787567998/G_3_sp6apf.jpg",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788175294/Gemini_Generated_Image_gi80tzgi80tzgi80_ksurye.png",
     alt: "Anand Apartments, a Banyan Tree residence JP nagar",
   },
   {
@@ -141,7 +141,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566111/plot2_iebvrg.jpg",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788249993/basaveshwara_layout_pqrguy.png",
   },
   {
     name: "Basaveshwara Layout Phase 2",
@@ -149,7 +149,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566086/plot1_ay07vb.jpg",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250921/ChatGPT_Image_Sep_1_2026_01_51_46_PM_g7zcxl.png",
   },
   {
     name: "Ashirwad Apartments",
@@ -166,7 +166,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787566308/magdi_road_kj3vra.jpg",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250701/ChatGPT_Image_Sep_1_2026_01_47_19_PM_o0ghyt.png",
   },
   {
     name: "Trishul Commercial Complex",
@@ -248,12 +248,36 @@ export const features = [
 ];
 
 export const legacyAcronym = [
-  { letter: "L", word: "Landmark", body: "Addresses across Bengaluru that stand as landmarks in their own neighbourhoods." },
-  { letter: "E", word: "Enduring", body: "Craft and materials chosen for the decades ahead, not the handover date." },
-  { letter: "G", word: "Growth", body: "Grown steadily alongside the city since 2004 — never rushed, never templated." },
-  { letter: "A", word: "Architecture", body: "Design led in‑house at every stage, from first blueprint to final finish." },
-  { letter: "C", word: "Complete Transparency", body: "Every timeline, cost and specification shared plainly, at every stage." },
-  { letter: "Y", word: "Years of Trust", body: "Three decades and 1,200+ families who chose to call a Banyan Tree address home." },
+  {
+    letter: "L",
+    word: "Landmark",
+    body: "Addresses across Bengaluru that stand as landmarks in their own neighbourhoods.",
+  },
+  {
+    letter: "E",
+    word: "Enduring",
+    body: "Craft and materials chosen for the decades ahead, not the handover date.",
+  },
+  {
+    letter: "G",
+    word: "Growth",
+    body: "Grown steadily alongside the city since 2004 — never rushed, never templated.",
+  },
+  {
+    letter: "A",
+    word: "Architecture",
+    body: "Design led in‑house at every stage, from first blueprint to final finish.",
+  },
+  {
+    letter: "C",
+    word: "Complete Transparency",
+    body: "Every timeline, cost and specification shared plainly, at every stage.",
+  },
+  {
+    letter: "Y",
+    word: "Years of Trust",
+    body: "Three decades and 1,200+ families who chose to call a Banyan Tree address home.",
+  },
 ];
 
 export const journeySteps = [
