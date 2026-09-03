@@ -69,7 +69,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535376/Royale_k8tffx.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535376/Royale_k8tffx.webp",
     alt: "Royale, a Banyan Tree residence in Cooke Town",
   },
   {
@@ -78,7 +78,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535361/Regal_gqsrb7.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535361/Regal_gqsrb7.webp",
     alt: "Regal, a Banyan Tree residence in Cooke Town",
   },
   {
@@ -87,7 +87,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535329/Grace_gw3ulb.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535329/Grace_gw3ulb.webp",
     alt: "Grace, a Banyan Tree residence in Richard's Town",
   },
   {
@@ -96,7 +96,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535321/East_Lyne_xgabn0.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535321/East_Lyne_xgabn0.webp",
     alt: "Eastlynne, a Banyan Tree residence in Whitefield",
   },
   {
@@ -105,7 +105,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787548390/sunshine_fsxi28.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1787548390/sunshine_fsxi28.webp",
     alt: "Sunshine, a Banyan Tree residence in Sarjapur",
   },
   {
@@ -114,7 +114,7 @@ export const projects = [
     tag: "Villas",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788418225/lake-1280px_zuxmw5.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788419232/lake-optimized_rgzuod.webp",
     alt: "Lake Drive, a Banyan Tree villa community on Old Madras Road",
   },
   {
@@ -123,7 +123,7 @@ export const projects = [
     tag: "Row Houses",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535346/Mystic_wind_jazc4l.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535346/Mystic_wind_jazc4l.webp",
     alt: "Mystic Wind Row Houses, a Banyan Tree community near Whitefield",
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788175294/Gemini_Generated_Image_gi80tzgi80tzgi80_ksurye.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788175294/Gemini_Generated_Image_gi80tzgi80tzgi80_ksurye.webp",
     alt: "Anand Apartments, a Banyan Tree residence JP nagar",
   },
   {
@@ -141,7 +141,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788249993/basaveshwara_layout_pqrguy.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788249993/basaveshwara_layout_pqrguy.webp",
   },
   {
     name: "Basaveshwara Layout Phase 2",
@@ -149,7 +149,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250921/ChatGPT_Image_Sep_1_2026_01_51_46_PM_g7zcxl.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250921/ChatGPT_Image_Sep_1_2026_01_51_46_PM_g7zcxl.webp",
   },
   {
     name: "Ashirwad Apartments",
@@ -157,7 +157,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535307/Bliss_rrbomy.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535307/Bliss_rrbomy.webp",
     alt: "Ashirwad Apartments, a Banyan Tree residence in RPC Layout, Vijayanagar",
   },
   {
@@ -166,7 +166,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250701/ChatGPT_Image_Sep_1_2026_01_47_19_PM_o0ghyt.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250701/ChatGPT_Image_Sep_1_2026_01_47_19_PM_o0ghyt.webp",
   },
   {
     name: "Trishul Commercial Complex",

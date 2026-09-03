@@ -2,6 +2,19 @@ import { Link, useLocation } from "react-router-dom";
 import Reveal from "./Reveal.jsx";
 import { projects, projectStatusGroups } from "../data/site.js";
 
+const cloudinaryImage = (src, width) =>
+  src.includes("res.cloudinary.com")
+    ? src.replace("/image/upload/", `/image/upload/f_webp,q_84,w_${width},dpr_auto/`)
+    : src;
+
+const projectImageProps = (src) => ({
+  src: cloudinaryImage(src, 1200),
+  srcSet: [640, 960, 1200, 1600]
+    .map((width) => `${cloudinaryImage(src, width)} ${width}w`)
+    .join(", "),
+  sizes: "(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 33vw",
+});
+
 function FeaturedStatusGrid() {
   return (
     <div className="project-status-grid">
@@ -20,7 +33,12 @@ function FeaturedStatusGrid() {
           >
             <Link to={to} className="project-status-media">
               {cover?.image ? (
-                <img src={cover.image} alt={cover.alt || group.label} loading="lazy" />
+                <img
+                  {...projectImageProps(cover.image)}
+                  alt={cover.alt || group.label}
+                  loading="lazy"
+                  decoding="async"
+                />
               ) : (
                 <span className="project-media-name">{group.label}</span>
               )}
@@ -88,7 +106,12 @@ export default function Projects({ featured = false }) {
               >
                 <div className="project-media">
                   {project.image ? (
-                    <img src={project.image} alt={project.alt} loading="lazy" />
+                    <img
+                      {...projectImageProps(project.image)}
+                      alt={project.alt}
+                      loading="lazy"
+                      decoding="async"
+                    />
                   ) : (
                     <span className="project-media-name">{project.name}</span>
                   )}
