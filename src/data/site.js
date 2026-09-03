@@ -142,6 +142,7 @@ export const projects = [
     status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1788249993/basaveshwara_layout_pqrguy.webp",
+    alt: "Basaveshwara Layout, a Banyan Tree residence in Vijayanagar",
   },
   {
     name: "Basaveshwara Layout Phase 2",
@@ -150,6 +151,7 @@ export const projects = [
     status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250921/ChatGPT_Image_Sep_1_2026_01_51_46_PM_g7zcxl.webp",
+    alt: "Basaveshwara Layout Phase 2, a Banyan Tree residence in Chandra Layout, Vijayanagar",
   },
   {
     name: "Ashirwad Apartments",
@@ -167,6 +169,7 @@ export const projects = [
     status: "completed",
     image:
       "https://res.cloudinary.com/flxf4ltt/image/upload/v1788250701/ChatGPT_Image_Sep_1_2026_01_47_19_PM_o0ghyt.webp",
+    alt: "Ashirwad Layout, a Banyan Tree residence on Magadi Road",
   },
   {
     name: "Trishul Commercial Complex",
@@ -284,12 +287,12 @@ export const journeySteps = [
   {
     num: "01",
     title: "Discover",
-    body: "We study the land before we design for it light, soil, existing trees and the rhythm of the neighbourhood around it.",
+    body: "We study the land before we design for it \u2014 natural light, soil, existing trees and the rhythm of the neighbourhood around it.",
   },
   {
     num: "02",
     title: "Design",
-    body: "Architects and engineers work in the same room, resolving spatial planning, structure and services together from day one.",
+    body: "Architects and engineers work in the same room from day one, resolving spatial planning, structure and services together.",
   },
   {
     num: "03",
@@ -299,7 +302,7 @@ export const journeySteps = [
   {
     num: "04",
     title: "Deliver",
-    body: "Homes are handed over complete and inspected — followed by a dedicated relationship team long after you've moved in.",
+    body: "Homes are handed over complete and inspected \u2014 followed by a dedicated relationship team long after you've moved in.",
   },
 ];
 
@@ -382,10 +385,10 @@ export const faqs = [
 ];
 
 export const footerQuickLinks = [
-  { href: "#top", label: "Home" },
+  { href: "/", label: "Home" },
   { href: "/legacy", label: "Our Story" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact Us" },
+  { href: "/projects", label: "Projects" },
+  { href: "/contact#contact", label: "Contact Us" },
 ];
 
 export const footerProjects = [
@@ -402,11 +405,10 @@ export const footerProjects = [
   "Ashirwad Layout",
 ];
 
-/* Real profile URLs to be added later — hrefs are placeholders until then. */
 export const socialLinks = [
-  { label: "YouTube", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "LinkedIn", href: "#" },
-  { label: "Facebook", href: "#" },
+  { label: "YouTube", href: null },
+  { label: "Instagram", href: null },
+  { label: "LinkedIn", href: null },
+  { label: "Facebook", href: null },
   { label: "Mail", href: `mailto:${contact.email}` },
 ];

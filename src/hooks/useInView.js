@@ -15,10 +15,7 @@ export function useInView({ threshold = 0.15, rootMargin = "0px 0px -40px 0px" }
     const el = ref.current;
     if (!el) return;
 
-    if (reduceMotion || !("IntersectionObserver" in window)) {
-      setInView(true);
-      return;
-    }
+    if (reduceMotion || !("IntersectionObserver" in window)) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -36,5 +33,9 @@ export function useInView({ threshold = 0.15, rootMargin = "0px 0px -40px 0px" }
     return () => observer.disconnect();
   }, [reduceMotion, threshold, rootMargin]);
 
-  return [ref, inView];
+  const shouldShowImmediately =
+    reduceMotion ||
+    (typeof window !== "undefined" && !("IntersectionObserver" in window));
+
+  return [ref, inView || shouldShowImmediately];
 }

@@ -1,4 +1,5 @@
 import Reveal from "./Reveal.jsx";
+import { Link } from "react-router-dom";
 
 export default function CtaBanner() {
   return (
@@ -17,12 +18,12 @@ export default function CtaBanner() {
           obligation, just an honest conversation.
         </p>
         <div className="cta-actions">
-          <a href="#contact" className="btn btn-primary">
+          <Link to="/contact#contact" className="btn btn-primary">
             Download Brochure
-          </a>
-          <a href="#contact" className="btn btn-ghost">
+          </Link>
+          <Link to="/contact#contact" className="btn btn-ghost">
             Book a Consultation
-          </a>
+          </Link>
         </div>
       </Reveal>
     </section>

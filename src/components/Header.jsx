@@ -12,16 +12,37 @@ export default function Header() {
   // from the start rather than waiting for scroll.
   const isLight = scrolled || pathname !== "/";
   const [navOpen, setNavOpen] = useState(false);
+  const [submenuOpen, setSubmenuOpen] = useState(false);
 
   // Escape closes the mobile drawer.
   useEffect(() => {
     if (!navOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     const onKeyDown = (e) => {
       if (e.key === "Escape") setNavOpen(false);
     };
     document.addEventListener("keydown", onKeyDown);
-    return () => document.removeEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", onKeyDown);
+    };
   }, [navOpen]);
+
+  const handleNavClick = (event, link) => {
+    const isTouchDesktop =
+      link.submenu &&
+      window.matchMedia("(min-width: 961px) and (hover: none)").matches;
+
+    if (isTouchDesktop && !submenuOpen) {
+      event.preventDefault();
+      setSubmenuOpen(true);
+      return;
+    }
+
+    setNavOpen(false);
+    setSubmenuOpen(false);
+  };
 
   return (
     <header
@@ -42,9 +63,9 @@ export default function Header() {
             {navLinks.map((link) => (
               <li
                 key={link.href}
-                className={`nav-item${link.submenu ? " has-submenu" : ""}`}
+                className={`nav-item${link.submenu ? " has-submenu" : ""}${link.submenu && submenuOpen ? " submenu-open" : ""}`}
               >
-                <Link to={link.href} onClick={() => setNavOpen(false)}>
+                <Link to={link.href} onClick={(event) => handleNavClick(event, link)}>
                   {link.label}
                   {link.submenu && (
                     <span className="caret" aria-hidden="true">
@@ -67,6 +88,15 @@ export default function Header() {
             ))}
           </ul>
         </nav>
+
+        {navOpen && (
+          <button
+            type="button"
+            className="nav-backdrop"
+            aria-label="Close menu"
+            onClick={() => setNavOpen(false)}
+          />
+        )}
 
         <div className="header-actions">
           <button

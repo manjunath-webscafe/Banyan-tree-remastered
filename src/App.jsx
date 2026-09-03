@@ -26,6 +26,7 @@ export default function App() {
           <Route path="/journey" element={<Navigate to="/legacy#journey" replace />} />
           <Route path="/leadership" element={<LeadershipPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
 

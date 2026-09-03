@@ -216,6 +216,9 @@ em {
   margin-left: auto;
   margin-right: auto;
 }
+.philosophy .section-lede {
+  text-align: justify;
+}
 .philosophy-lede-follow {
   margin-top: 16px;
 }
@@ -412,8 +415,12 @@ em {
   z-index: 110;
 }
 .nav-item.has-submenu:hover .submenu,
-.nav-item.has-submenu:focus-within .submenu {
+.nav-item.has-submenu:focus-within .submenu,
+.nav-item.has-submenu.submenu-open .submenu {
   display: block;
+}
+.nav-item.has-submenu.submenu-open .caret {
+  transform: translateY(1px) rotate(180deg);
 }
 .main-nav .submenu a {
   display: block;
@@ -450,6 +457,9 @@ em {
   height: 1.5px;
   background: var(--off-white);
   transition: all 0.3s var(--ease);
+}
+.nav-backdrop {
+  display: none;
 }
 .site-header.scrolled .nav-toggle span {
   background: var(--charcoal);
@@ -977,17 +987,21 @@ em {
   background: #fff;
 }
 
-.pillar-icon {
-  display: inline-flex;
-  width: 44px;
-  height: 44px;
-  color: var(--gold);
-  margin-bottom: 22px;
-}
-
 .pillar-card h3 {
+  position: relative;
   margin-bottom: 12px;
+  padding-left: 16px;
   font-size: 1.2rem;
+}
+.pillar-card h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.58em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
 }
 
 .pillar-card p {
@@ -1351,9 +1365,21 @@ em {
   margin-bottom: 18px;
 }
 .timeline-body h3 {
+  position: relative;
   color: var(--forest-900);
   margin-bottom: 10px;
+  padding-left: 16px;
   font-size: 1.15rem;
+}
+.timeline-body h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.58em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
 }
 .timeline-body p {
   color: var(--charcoal-60);
@@ -1750,7 +1776,8 @@ em {
   margin-top: 18px;
 }
 
-.social-row a {
+.social-row a,
+.social-row .social-icon-unavailable {
   width: 34px;
   height: 34px;
   border: 1px solid var(--line);
@@ -1761,6 +1788,10 @@ em {
   font-size: 0.8rem;
   color: #252525;
   transition: all 0.25s var(--ease);
+}
+
+.social-row .social-icon-unavailable {
+  opacity: 0.65;
 }
 
 .social-row a:hover {
@@ -1825,6 +1856,9 @@ em {
   .pillar-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .pillar-card:nth-child(even) {
+    border-right: none;
+  }
   .legacy-acronym-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1870,6 +1904,14 @@ em {
 }
 
 @media (max-width: 960px) {
+  .nav-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    border: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 80;
+  }
   .main-nav {
     position: fixed;
     top: 0;
@@ -1954,6 +1996,9 @@ em {
   .people-grid-compact,
   .leadership-grid {
     grid-template-columns: 1fr;
+  }
+  .pillar-card {
+    border-right: none;
   }
   .leader-portrait {
     max-width: 280px;

@@ -73,7 +73,10 @@ export default function Projects({ featured = false }) {
   return (
     <section className="section projects" id="projects">
       <div className="container">
-        <div className="section-head">
+        <div
+          className="section-head"
+          id={activeGroup ? `status-${activeGroup.key}` : undefined}
+        >
           <Reveal as="p" className="eyebrow">
             Our Projects
           </Reveal>
@@ -131,9 +134,9 @@ export default function Projects({ featured = false }) {
         )}
 
         <Reveal className="section-cta-row">
-          <a href="#contact" className="btn btn-outline">
+          <Link to="/contact#contact" className="btn btn-outline">
             Enquire About a Project
-          </a>
+          </Link>
         </Reveal>
       </div>
     </section>

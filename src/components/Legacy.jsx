@@ -67,7 +67,6 @@ export default function Legacy() {
         <ol className="timeline">
           {journeySteps.map((step) => (
             <Reveal as="li" className="timeline-item" key={step.num}>
-              <span className="timeline-num">{step.num}</span>
               <div className="timeline-body">
                 <h3>{step.title}</h3>
                 <p>{step.body}</p>

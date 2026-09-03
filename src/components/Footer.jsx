@@ -1,4 +1,5 @@
 import { Fragment, useState } from "react";
+import { Link } from "react-router-dom";
 import BrandMark from "./BrandMark.jsx";
 import {
   contact,
@@ -54,9 +55,9 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-top">
         <div className="footer-brand">
-          <a href="#top" className="brand brand-footer">
+          <Link to="/" className="brand brand-footer">
             <BrandMark simple />
-          </a>
+          </Link>
           <p>
             three decades of landmark residences across Bengaluru — built on
             design integrity, honest craft and lasting trust.
@@ -94,7 +95,7 @@ export default function Footer() {
           <ul>
             {footerQuickLinks.map((link) => (
               <li key={link.label}>
-                <a href={link.href}>{link.label}</a>
+                <Link to={link.href}>{link.label}</Link>
               </li>
             ))}
           </ul>
@@ -105,7 +106,7 @@ export default function Footer() {
           <ul>
             {footerProjects.map((name) => (
               <li key={name}>
-                <a href="#projects">{name}</a>
+                <Link to="/projects#projects">{name}</Link>
               </li>
             ))}
           </ul>
@@ -128,12 +129,8 @@ export default function Footer() {
             <a href={`mailto:${contact.email}`}>{contact.email}</a>
           </p>
           <div className="social-row" aria-label="Social media">
-            {socialLinks.map((social) => (
-              <a
-                href={social.href}
-                aria-label={social.label}
-                key={social.label}
-              >
+            {socialLinks.map((social) => {
+              const icon = (
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -145,8 +142,27 @@ export default function Footer() {
                 >
                   {SOCIAL_ICONS[social.label]}
                 </svg>
-              </a>
-            ))}
+              );
+
+              return social.href ? (
+                <a
+                  href={social.href}
+                  aria-label={social.label}
+                  key={social.label}
+                >
+                  {icon}
+                </a>
+              ) : (
+                <span
+                  className="social-icon-unavailable"
+                  aria-label={`${social.label} profile coming soon`}
+                  role="img"
+                  key={social.label}
+                >
+                  {icon}
+                </span>
+              );
+            })}
           </div>
         </div>
       </div>

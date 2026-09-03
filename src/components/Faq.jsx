@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import Reveal from "./Reveal.jsx";
 import { faqs } from "../data/site.js";
 
@@ -55,7 +56,7 @@ export default function Faq() {
             Can't find what you're looking for? Our team is happy to walk you
             through it personally.
           </Reveal>
-          <Reveal as="a" href="#contact" className="text-link">
+          <Reveal as={Link} to="/contact#contact" className="text-link">
             Talk to our team →
           </Reveal>
         </div>
