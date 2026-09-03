@@ -114,7 +114,7 @@ export const projects = [
     tag: "Villas",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788238886/lake_vybpeo.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1788418225/lake-1280px_zuxmw5.png",
     alt: "Lake Drive, a Banyan Tree villa community on Old Madras Road",
   },
   {
@@ -157,7 +157,7 @@ export const projects = [
     tag: "Residential",
     status: "completed",
     image:
-      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535411/winter_green_lvumdt.png",
+      "https://res.cloudinary.com/flxf4ltt/image/upload/v1786535307/Bliss_rrbomy.png",
     alt: "Ashirwad Apartments, a Banyan Tree residence in RPC Layout, Vijayanagar",
   },
   {
