@@ -1,4 +1,5 @@
 import Reveal from "./Reveal.jsx";
+import vastuImage from "../assets/vastu.png";
 
 const principles = [
   "Thoughtful site orientation",
@@ -16,6 +17,9 @@ export default function Vastu() {
           </Reveal>
           <Reveal as="h2" id="vastu-title">
             Vastu-inspired living, thoughtfully planned.
+          </Reveal>
+          <Reveal className="vastu-image">
+            <img src={vastuImage} alt="Vastu-inspired home layout" />
           </Reveal>
         </div>
         <div className="vastu-copy">

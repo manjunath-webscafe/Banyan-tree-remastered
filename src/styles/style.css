@@ -922,6 +922,18 @@ em {
   margin-bottom: 0;
 }
 
+.vastu-image {
+  margin-top: 40px;
+  max-width: 470px;
+}
+
+.vastu-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+}
+
 .vastu-copy {
   max-width: 650px;
 }
