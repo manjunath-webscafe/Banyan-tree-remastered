@@ -19,10 +19,7 @@ export default function Leadership() {
           <Reveal as="p" className="eyebrow">
             Empowering Teams, Inspiring Growth
           </Reveal>
-          <Reveal as="h2">Leadership in Action  </Reveal>
-          <Reveal as="p" className="section-lede">
-           Shareholders, Family &amp; HNI
-          </Reveal>
+          <Reveal as="h2">Leadership in Action </Reveal>
         </div>
 
         <div className="leadership-grid">
